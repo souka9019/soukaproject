@@ -1,0 +1,2111 @@
+#-------------------------------------------------------------------------------
+#  Copyright (C) 2009-2012 SM2 BALEARES
+ #  This program is free software: you can redistribute it and/or modify
+ #  it under the terms of the GNU General Public License as published by
+ #  the Free Software Foundation, either version 3 of the License, or
+ #  (at your option) any later version.
+ #
+ #  This program is distributed in the hope that it will be useful,
+ #  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ #  See the GNU General Public License for more details.
+ #
+ #  You should have received a copy of the GNU General Public License
+ #  along with this program. If not, see http://www.gnu.org/licenses/.
+ #
+ #  For more information, please contact SM2 BALEARES.
+ #  Mail: info@open-ppm.org<mailto:info@open-ppm.org>
+ #  Web: http://www.talaia-openppm.es/
+ #
+ #  Authors : Javier Hernandez Castillo, Daniel Casas Lopez
+ #-------------------------------------------------------------------------------
+ about = \u30b7\u30b9\u30c6\u30e0\u60c5\u5831
+
+ about.developed_by = Developed by SM2 Baleares
+ about.subsidized   = Subsidized by Plan Avanza 2 from Ministerio de Industria, Turismo y Comercio - Gobierno de Espana (TSI - 020513-2009-72)
+ about.web          = OpenPPM in Sourceforge.net
+
+ accept = \u78ba\u8a8d
+
+ actions.maintenance.cons_maintenance     = cons-maintenance
+ actions.maintenance.cons_program         = cons-program
+ actions.projects.add_grsc                = \u8ffd\u52a0-\u5b9a\u6027\u7684\u2010\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+ actions.projects.approve_project         = \u627f\u8a8d-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.control_project         = \u5b9f\u7e3e-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.control_time_project    = \u30b3\u30f3\u30c8\u30ed\u30fc\u30eb-\u30bf\u30a4\u30e0-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.create_project          = \u751f\u6210\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.delete_budgetaccounts   = \u524a\u9664-\u4e88\u7b97\u30a2\u30ab\u30a6\u30f3\u30c8
+ actions.projects.delete_businessline     = \u524a\u9664-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u696d\u7a2e
+ actions.projects.delete_category         = \u524a\u9664\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u985e
+ actions.projects.delete_company          = \u524a\u9664-\u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ actions.projects.delete_contact          = \u524a\u9664\u2010\u30b3\u30f3\u30bf\u30af\u30c8
+ actions.projects.delete_contracttype     = \u524a\u9664-\u5951\u7d04\u7a2e\u985e
+ actions.projects.delete_cost             = \u524a\u9664-\u539f\u4fa1
+ actions.projects.delete_employee         = \u524a\u9664\u2010\u793e\u54e1
+ actions.projects.delete_expenseaccounts  = \u524a\u9664-\u7d4c\u8cbb-\u30a2\u30ab\u30a6\u30f3\u30c8
+ actions.projects.delete_followup         = \u524a\u9664\u2010\u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7
+ actions.projects.delete_geography        = \u524a\u9664-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21
+ actions.projects.delete_income           = \u53ce\u5165\u306e\u524a\u9664
+ actions.projects.delete_iwo              = delete-iwo
+ actions.projects.delete_operation        = \u524a\u9664-\u4f5c\u696d
+ actions.projects.delete_operationaccount = \u524a\u9664\u2010\u4f5c\u696d\u2010\u30a2\u30ab\u30a6\u30f3\u30c8
+ actions.projects.delete_perfoming_org    = \u524a\u9664-\u672c\u90e8
+ actions.projects.delete_program          = \u524a\u9664\u2010\u30d7\u30ed\u30b0\u30e9\u30e0
+ actions.projects.delete_skill            = \u524a\u9664\u2010\u30b9\u30ad\u30eb
+ actions.projects.delete_stakeholder      = \u524a\u9664-\u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc
+ actions.projects.delete_wbsnode          = \u524a\u9664-WBS\u30ce\u30fc\u30c9
+ actions.projects.edit_wbsnode            = \u7de8\u96c6-WBS\u30ce\u30fc\u30c9
+ actions.projects.initiating_project      = \u958b\u59cb-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.list_projects           = \u30ea\u30b9\u30c8\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.new_customer            = \u65b0\u898f\u4f5c\u6210\u2010\u9867\u5ba2
+ actions.projects.new_project             = \u65b0\u898f\u4f5c\u6210\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.planning_costs_project  = \u8a08\u753b\u2010\u30b3\u30b9\u30c8\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.planning_project        = \u8a08\u753b\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.planning_staff_project  = \u8a08\u753b\u2010\u30b9\u30bf\u30c3\u30d5\u2010\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ actions.projects.save_activity           = \u4fdd\u5b58-\u30bf\u30b9\u30af
+ actions.projects.save_grsc               = \u4fdd\u5b58-\u5b9a\u6027\u7684\u2010\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+ actions.projects.save_timesheet          = \u4fdd\u5b58\u2010\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+ actions.projects.save_wbsnode            = \u4fdd\u5b58-WBS\u30ce\u30fc\u30c9
+ actions.projects.send_charter            = \u9001\u4fe1\u2010\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb
+
+ activity = \u30bf\u30b9\u30af
+
+activity.ac                = AC
+ activity.ac.time_sheet     = AC\u306e\u7b97\u51fa\u5024
+ activity.act               = \u5b9f\u7e3e
+ activity.actual_end_date   = \u5b9f\u7e3e\u7d42\u4e86\u65e5
+ activity.actual_init_date  = \u5b9f\u7e3e\u958b\u59cb\u65e5
+ activity.budget            = \u4e88\u7b97
+ activity.description       = \u30bf\u30b9\u30af\u8aac\u660e
+ activity.earned_value      = EV
+ activity.end_date          = \u6700\u7d42\u65e5
+ activity.ev                = EV
+ activity.ev.sum            = EV\u306e\u7b97\u51fa\u5024
+ activity.finish            = \u7d42\u4e86\u65e5
+ activity.finish_full       = \u30bf\u30b9\u30af\u7d42\u4e86\u65e5
+ activity.init_date         = \u958b\u59cb\u65e5
+activity.name              = \u30bf\u30b9\u30af\u540d
+ activity.planned_end_date  = \u7d42\u4e86\u4e88\u5b9a\u65e5
+ activity.planned_init_date = \u958b\u59cb\u4e88\u5b9a\u65e5
+ activity.poc               = POC\u8a08\u7b97
+ activity.start             = \u958b\u59cb\u65e5
+ activity.start_full        = \u30bf\u30b9\u30af\u958b\u59cb\u65e5
+ activity.status_date       = \u30b9\u30c6\u30fc\u30bf\u30b9\u65e5\u4ed8
+ activity.wbs_dictionary    = WBS\u8f9e\u66f8
+ activity.wp                = WP
+
+ activity_list = \u30bf\u30b9\u30af\u30ea\u30b9\u30c8
+
+ add = \u8ffd\u52a0
+
+ add_operation = \u4f5c\u696d\u306e\u8ffd\u52a0
+
+ add_project = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u8ffd\u52a0
+
+ all = \u5168\u3066
+
+ allow_working_non_labor = \u4f11\u65e5\u306e\u5909\u66f4
+
+ alternatives = \u9078\u629e\u80a2
+
+ analyze = \u5206\u6790
+
+ analyze_request = \u8981\u6c42\u5206\u6790
+
+ applevel.app0             = APP0
+ applevel.app0_desc        = \u30ea\u30bd\u30fc\u30b9\u627f\u8a8d\u5f85\u3061
+ applevel.app1             = APP1
+ applevel.app1_desc        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u627f\u8a8d\u5f85\u3061
+ applevel.app2             = APP2
+ applevel.app2_desc        = \u6700\u7d42\u627f\u8a8d\u5f85\u3061
+ applevel.app3             = APP3
+ applevel.app3_desc        = \u627f\u8a8d\u6642\u9593
+ applevel.approval_pending = \u7533\u8acb\u627f\u8a8d\u5f85\u3061
+ applevel.approved         = \u627f\u8a8d
+ applevel.pending          = Pending
+
+ apply = \u5b9f\u884c
+
+ approve = \u627f\u8a8d
+
+ approve.all               = \u5168\u3066\u627f\u8a8d
+ approve.resource          = \u30ea\u30bd\u30fc\u30b9\u3092\u627f\u8a8d\u3057\u307e\u3059\u304b\uff1f
+ approve.resource.assigned = \u30ea\u30bd\u30fc\u30b9\u306f\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u3066\u3044\u308b\u72b6\u614b\u3067\u3059\u3002
+
+ assignments = \u30a2\u30b5\u30a4\u30f3
+
+ assignments.status = \u30a2\u30b5\u30a4\u30f3\u30b9\u30c6\u30fc\u30bf\u30b9
+
+ assumption = \u524d\u63d0\u6761\u4ef6
+
+ assumption.code                   = \u30b3\u30fc\u30c9
+ assumption.description            = \u8aac\u660e
+ assumption.doc                    = \u8cc7\u6599
+assumption.name                   = \u524d\u63d0\u6761\u4ef6\u306e\u540d\u79f0
+ assumption.originator             = \u5909\u66f4\u306e\u7533\u8acb\u8005
+ assumption.save_before_create     = \u5909\u66f4\u30ed\u30b0\u3092\u751f\u6210\u3059\u308b\u524d\u306b\u3001\u524d\u63d0\u6761\u4ef6\u3092\u4fdd\u5b58\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+
+ assumption_log = \u524d\u63d0\u6761\u4ef6\u4e00\u89a7
+
+ assumption_log.description_change = \u5909\u66f4\u8aac\u660e
+
+ assumptions = \u524d\u63d0\u6761\u4ef6
+
+ bac = BAC
+
+ bac_desc = BAC
+
+ bac_desc_complete = BAC
+
+ back = \u623b\u308b
+
+ baseline_finish = \u7d42\u4e86\u4e88\u5b9a\u65e5
+
+ baseline_start = \u958b\u59cb\u4e88\u5b9a\u65e5
+
+ basic_data = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u60c5\u5831
+
+ business_line = \u696d\u7a2e
+
+ business_manager = \u672c\u90e8\u30de\u30cd\u30fc\u30b8\u30e3
+
+ calculate = \u8a08\u7b97
+
+ calculate.long           = \u8a08\u7b97
+
+ calculated.expense_sheet = \u7d4c\u8cbb\u30b7\u30fc\u30c8\u306b\u3088\u308b\u7b97\u51fa\u5024
+
+ calendar = \u30ab\u30ec\u30f3\u30c0\u30fc
+
+ calendar.base                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9
+ calendar.calendar_exception    = \u30ab\u30ec\u30f3\u30c0\u30fc\u306e\u9664\u5916\u65e5
+ calendar.days_per_month        = \u6708\u306e\u51fa\u52e4\u65e5\u6570
+ calendar.default_end_time      = \u52e4\u52d9\u7d42\u4e86\u6642\u523b
+ calendar.default_start_time    = \u52e4\u52d9\u958b\u59cb\u6642\u523b
+ calendar.exception_day         = \u9664\u5916\u65e5
+ calendar.exceptions            = \u9664\u5916\u671f\u9593
+ calendar.finish                = \u7d42\u4e86\u65e5
+ calendar.fiscal_start          = \u4f1a\u8a08\u5e74\u5ea6\u306e\u958b\u59cb\u6708
+ calendar.hours_per_day         = \u6bce\u65e5\u306e\u52e4\u52d9\u6642\u9593
+ calendar.hours_per_week        = \u6bce\u9031\u306e\u52e4\u52d9\u6642\u9593
+calendar.name                  = \u540d\u79f0
+ calendar.new_exception         = \u9664\u5916\u65e5\u306e\u65b0\u898f\u4f5c\u6210
+ calendar.non_default_work_week = \u4f11\u65e5
+ calendar.non_working           = \u4f11\u307f
+ calendar.start                 = \u958b\u59cb\u65e5
+ calendar.week_starts           = \u9031\u306e\u958b\u59cb\u65e5
+ calendar.working               = \u51fa\u52e4\u65e5
+
+ cancel = \u30ad\u30e3\u30f3\u30bb\u30eb
+
+ category = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u985e
+
+ change.accepted                 = \u78ba\u8a8d
+ change.change_type              = \u5909\u66f4\u7a2e\u5225
+ change.cost                     = \u30b3\u30b9\u30c8
+ change.date                     = \u671f\u65e5
+ change.desc                     = \u5909\u66f4\u8aac\u660e
+ change.effort                   = \u5de5\u6570
+ change.estimated_cost           = \u898b\u7a4d\u539f\u4fa1
+ change.estimated_effort         = \u898b\u7a4d\u5de5\u6570
+change.id                       = ID
+ change.impact_desc              = \u5f71\u97ff\u306e\u8aac\u660e
+ change.management               = \u5909\u66f4\u7ba1\u7406
+ change.open                     = \u30aa\u30fc\u30d7\u30f3
+ change.originator               = \u5909\u66f4\u306e\u7533\u8acb\u8005
+ change.priority                 = \u512a\u5148\u5ea6
+ change.priority.high            = \u512a\u5148\u5ea6\u9ad8
+ change.priority.low             = \u512a\u5148\u5ea6\u4f4e
+ change.priority.normal          = \u666e\u901a
+ change.priority_shot            = \u512a\u5148\u5ea6\uff08%\uff09
+ change.recommended_solution     = \u63a8\u5968\u89e3\u6c7a\u6848
+ change.rejected                 = \u62d2\u5426
+ change.resolution               = \u89e3\u6c7a
+ change.resolution_date          = \u89e3\u6c7a\u65e5
+ change.resolution_reason        = \u89e3\u6c7a\u7406\u7531
+ change.solve                    = \u89e3\u6c7a
+ change.wbs_node                 = WBS\u30ce\u30fc\u30c9
+
+ change_control_list = \u5b9f\u7e3e\u5909\u66f4\u30ea\u30b9\u30c8
+
+ change_information = \u5909\u66f4\u60c5\u5831
+
+ change_log = \u5909\u66f4\u4e00\u89a7
+
+ change_request = \u5909\u66f4\u8981\u6c42
+
+ change_request.business_manager = \u672c\u90e8\u30de\u30cd\u30fc\u30b8\u30e3\uff1a
+ change_request.contact_name     = \u30b3\u30f3\u30bf\u30af\u30c8\u540d\uff1a
+ change_request.customer         = \u9867\u5ba2/\u30a8\u30f3\u30c9\u30e6\u30fc\u30b6\u30b0\u30eb\u30fc\u30d7\uff1a
+ change_request.customer_type    = \u9867\u5ba2\u7a2e\u985e\uff1a
+ change_request.date             = \u671f\u65e5\uff1a
+ change_request.originator       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u767a\u7533\u8acb\u8005
+ change_request.prepared_by      = \u4f5c\u6210\u8005\uff1a
+ change_request.project_manager  = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3
+ change_request.project_name     = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u540d/\u756a\u53f7\uff1a
+
+ change_type = \u5909\u66f4\u7a2e\u985e
+
+ chart = \u30c1\u30e3\u30fc\u30c8
+
+ chart.bubble                        = \u30d0\u30d6\u30eb\u30c1\u30e3\u30fc\u30c8
+ chart.bubble.earned_value           = EV
+ chart.bubble.high_risk              = \u9ad8\u30ea\u30b9\u30af
+ chart.bubble.legend_size            = budget Figures in k\u20ac
+ chart.bubble.low_risk               = \u4f4e\u30ea\u30b9\u30af
+ chart.bubble.medium_risk            = \u4e2d\u30ea\u30b9\u30af
+ chart.bubble.size                   = \u30b5\u30a4\u30ba
+ chart.bubble.strategic_value        = \u76ee\u6a19\u984d\uff08%\uff09
+ chart.bubble.unknown                = \u30ea\u30b9\u30af\u4e0d\u660e
+ chart.forecast                      = \u6295\u8cc7\u4e88\u671f
+ chart.forecast.backlog              = \u30d0\u30c3\u30af\u4e00\u89a7
+ chart.forecast.tbf                  = TBF:
+ chart.refresh                       = \u66f4\u65b0
+ chart.thousands                     = \u5343\u5186
+
+ charter_pdf.appendix                = \u4ed8\u9332
+ charter_pdf.business_manager        = \u672c\u90e8\u30de\u30cd\u30fc\u30b8\u30e3
+ charter_pdf.business_need           = \u696d\u52d9\u8981\u671b
+ charter_pdf.contact_name            = \u30b3\u30f3\u30bf\u30af\u30c8\u540d
+ charter_pdf.core_team_members       = \u30b3\u30a2\u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc
+ charter_pdf.customer                = \u9867\u5ba2/\u30a8\u30f3\u30c9\u30e6\u30fc\u30b6\u30b0\u30eb\u30fc\u30d7
+ charter_pdf.customer_type           = \u62c5\u5f53\u672c\u90e8
+ charter_pdf.date                    = \u671f\u65e5
+ charter_pdf.expectations            = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u306e\u671f\u5f85
+ charter_pdf.high_level_wbs          = \u30cf\u30a4\u30ec\u30d9\u30ebWBS
+ charter_pdf.info_1                  = Incorporate information from the following documents if appropriate: Work Request, Requirements Overview, Business Case and Project Investment.
+ charter_pdf.info_2                  = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u306e\u5f79\u5272\u3068\u8cac\u4efb\u3092\u898b\u308b\u306b\u306f\u3001\u300c\u5f79\u5272\uff06\u8cac\u4efb\u300d\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002
+ charter_pdf.info_3                  = (add sections from the Project Investment and appropriate: See Apendix A below)
+ charter_pdf.info_4                  = (add sections from the Project Investment as appropriate: See Apendix A below)
+ charter_pdf.main_assumptions        = \u4e3b\u306a\u524d\u63d0
+ charter_pdf.main_constraints        = \u4e3b\u306a\u5236\u7d04
+ charter_pdf.main_risk               = \u4e3b\u306a\u30ea\u30b9\u30af
+ charter_pdf.milestones              = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3/\u7d0d\u54c1\u7269
+ charter_pdf.other_key               = \u4ed6\u306e\u30ad\u30fc\u30ea\u30bd\u30fc\u30b9\u8981\u6c42
+ charter_pdf.performing_organization = \u672c\u90e8
+ charter_pdf.prepared_by             = Prepared By
+ charter_pdf.principal_stakeholders  = \u4e3b\u8981\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc
+ charter_pdf.project_manager         = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3
+ charter_pdf.project_name            = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u540d/No.
+ charter_pdf.project_objectives      = \u76ee\u7684
+ charter_pdf.project_sponsor         = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30dd\u30f3\u30b5\u30fc
+ charter_pdf.risks                   = \u30ea\u30b9\u30af
+ charter_pdf.subtitle_1              = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u60c5\u5831
+ charter_pdf.subtitle_2              = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7bc4\u56f2\u8aac\u660e
+ charter_pdf.subtitle_3              = \u30b5\u30dd\u30fc\u30c8\u8981\u7d20
+ charter_pdf.success_criteria        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u8aac\u660e
+ charter_pdf.title                   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb
+
+ checklist = \u30c1\u30a7\u30c3\u30af\u30ea\u30b9\u30c8
+
+ checklists = \u30c1\u30a7\u30c3\u30af\u30ea\u30b9\u30c8
+
+ checklists.code                = \u30b3\u30fc\u30c9
+ checklists.desc                = \u8aac\u660e
+ checklists.percentage_complete = \u9032\u6357\u7387\uff08%\uff09
+
+ clear_all_hours = \u5168\u3066\u30af\u30ea\u30a2
+
+ close = \u7d42\u4e86
+
+ close_project = \u30af\u30ed\u30fc\u30ba\u5b9f\u884c
+
+ closure = \u30af\u30ed\u30fc\u30ba
+
+ closure.customer_satisfaction  = \u9867\u5ba2\u6e80\u8db3\u5ea6
+ closure.document_repository    = \u8cc7\u6599\u306e\u76ee\u6b21
+ closure.goal_achievement       = \u76ee\u6a19\u72b6\u6cc1
+ closure.lessons_learned        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6559\u8a13
+ closure.performance_appraisals = \u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u8a55\u4fa1
+ closure.project_results        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d50\u679c
+ closure.report                 = \u30af\u30ed\u30fc\u30ba\u30ec\u30dd\u30fc\u30c8
+
+ comments = \u30b3\u30e1\u30f3\u30c8
+
+comments.pm   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3\u30b3\u30e1\u30f3\u30c8
+ comments.rm   = \u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3\u306e\u30b3\u30e1\u30f3\u30c8
+ comments.view = \u30b3\u30e1\u30f3\u30c8\u3092\u898b\u308b
+
+ company = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+
+company.name = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u540d
+
+ consult = \u554f\u3044\u5408\u308f\u305b
+
+ contact = \u30b3\u30f3\u30bf\u30af\u30c8
+
+ contact.businessaddress = \u30aa\u30d5\u30a3\u30b9\u4f4f\u6240
+ contact.businessphone   = \u30aa\u30d5\u30a3\u30b9\u96fb\u8a71\u756a\u53f7
+ contact.companies       = \u30ab\u30f3\u30d1\u30cb\u30fc
+ contact.company         = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ contact.email           = \u30e1\u30fc\u30eb
+ contact.fileas          = \u6240\u5c5e\u90e8\u8ab2
+ contact.fullname        = \u540d\u524d
+ contact.jobtitle        = \u5f79\u8077
+ contact.mobilephone     = \u643a\u5e2f\u96fb\u8a71
+contact.name            = \u30b3\u30f3\u30bf\u30af\u30c8\u540d
+ contact.notes           = \u5099\u8003
+ contact.surname         = \u540d\u5b57
+
+ contract_type = \u5951\u7d04\u7a2e\u985e
+
+ control = \u5b9f\u7e3e
+
+ control.human_resources = \u30ea\u30bd\u30fc\u30b9\u8ca0\u8377\u72b6\u6cc1
+
+ cost = \u30b3\u30b9\u30c8
+
+ cost.actual                                      = \u5b9f\u7e3e
+ cost.budget_account                              = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8
+ cost.charge_account                              = \u8acb\u6c42\u30a2\u30ab\u30a6\u30f3\u30c8
+ cost.date                                        = \u671f\u65e5
+ cost.desc                                        = \u8aac\u660e
+ cost.detail                                      = \u30b3\u30b9\u30c8\u8a73\u7d30
+ cost.planned                                     = \u8a08\u753b
+ cost.rate                                        = \u5358\u4fa1
+ cost.type                                        = Type Cost
+ cost.type.direct                                 = \u76f4\u63a5\u539f\u4fa1
+ cost.type.expense                                = \u7d4c\u8cbb
+ cost.type.indirect                               = \u9593\u63a5\u539f\u4fa1
+ cost.value                                       = \u91d1\u984d
+
+ cost_baseline_chart = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u539f\u4fa1\u30d9\u30fc\u30b9\u30e9\u30a4\u30f3
+
+ cost_baseline_chart.acual_cost                   = \u5b9f\u7e3e\u539f\u4fa1
+ cost_baseline_chart.control                      = \u5b9f\u7e3e\u539f\u4fa1
+ cost_baseline_chart.cost_variance                = \u539f\u4fa1\u5dee\u7570
+ cost_baseline_chart.eamed_value                  = EV
+ cost_baseline_chart.eamed_value_management_chart = EVM\u30c1\u30e3\u30fc\u30c8
+ cost_baseline_chart.planned_value                = \uff30\uff36
+ cost_baseline_chart.svt                          = \u30c1\u30e3\u30fc\u30c8SV\uff08\uff54\uff09
+ cost_baseline_chart.thousands                    = \u5343\u5186
+ cost_baseline_chart.time_variance                = \u6642\u9593\u5dee\u7570
+
+ cost_charts = \u30b3\u30b9\u30c8\u30c1\u30e3\u30fc\u30c8
+
+ cost_control = \u5b9f\u7e3e\u539f\u4fa1
+
+ cost_detail_control = \u5b9f\u7e3e\u539f\u4fa1\u8a73\u7d30
+
+ cost_detail_plan = \u8a08\u753b\u539f\u4fa1\u8a73\u7d30
+
+ costs = \u30b3\u30b9\u30c8
+
+ create_change_request = \u5909\u66f4\u7533\u8acb\u306e\u751f\u6210
+
+ cualitative_control = \u5b9a\u6027\u7684\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+
+ customer = \u9867\u5ba2
+
+ customer_name = \u9867\u5ba2\u540d
+
+ customer_type = \u62c5\u5f53\u672c\u90e8
+
+ customer_type.customer           = \u9867\u5ba2
+ customer_type.customer_value     = 1
+ customer_type.description        = \u672c\u90e8\u540d(\u7565\u79f0)
+ customer_type.group              = \u30e6\u30fc\u30b6\u30b0\u30eb\u30fc\u30d7
+ customer_type.group_value        = 2
+customer_type.name               = \u672c\u90e8\u540d
+ customer_type.perforg            = \u672c\u90e8
+ customer_type.perforg_value      = 3
+ customer_type.proj_manager       = 4
+ customer_type.proj_manager_value = 4
+
+ dashboard = \u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9
+
+ data_not_found = \u30c1\u30e3\u30fc\u30c8\u30c7\u30fc\u30bf\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+
+ date = \u671f\u65e5
+
+ dates = \u671f\u65e5
+
+ dates.since = \u958b\u59cb
+ dates.until = \u7d42\u4e86
+
+ days = \u65e5\u6570
+
+ default = \u30c7\u30d5\u30a9\u30eb\u30c8
+
+ delete = \u524a\u9664
+
+ delete.all            = \u5168\u3066\u524a\u9664
+
+ delete_company = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u306e\u524a\u9664
+
+ delete_contact = \u30b3\u30f3\u30bf\u30af\u30c8\u306e\u524a\u9664
+
+ delete_employee = \u793e\u54e1\u306e\u524a\u9664
+
+ delete_performing_org = \u672c\u90e8\u306e\u524a\u9664
+
+ delete_program = \u30d7\u30ed\u30b0\u30e9\u30e0\u306e\u524a\u9664
+
+ delete_skill = \u30b9\u30ad\u30eb\u306e\u524a\u9664
+
+ deliverable = \u7d0d\u54c1\u7269
+
+ deliverables = \u7d0d\u54c1\u7269
+
+ desc = \u8aac\u660e
+
+ detail_employee = \u793e\u54e1\u306e\u8a73\u7d30
+
+ detail_stakeholder = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u306e\u8a73\u7d30
+
+ detailed_cost_plan = \u8a08\u753b\u539f\u4fa1\u8a73\u7d30
+
+ direct_cost = \u76f4\u63a5\u539f\u4fa1
+
+ direct_costs = \u76f4\u63a5\u539f\u4fa1
+
+ displaytable.s_info          = _TOTAL_\u306e\u4e2d _START_ \uff5e _END_ \u306e\u8868\u793a
+ displaytable.s_info_empty    = 0\u4ef6\u4e2d0\uff5e0\u4ef6\u306e\u8868\u793a
+ displaytable.s_info_filtered = (\u30c8\u30fc\u30bf\u30eb\u306e _MAX_ \u304b\u3089\u7d5e\u8fbc\u307f)
+ displaytable.s_length_menu   = \u8868\u793a\u4ef6\u6570_\u30e1\u30cb\u30e5\u30fc_\u305a\u3064
+ displaytable.s_zero_records  = \u691c\u7d22\u7d50\u679c\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+
+ docs_and_manuals = \u8cc7\u6599&\u30de\u30cb\u30e5\u30a2\u30eb
+
+ document = \u8cc7\u6599
+
+document.name             = \u8cc7\u6599\u540d
+
+ document_bid = Document Investment
+
+ document_comment = \u30b3\u30e1\u30f3\u30c8
+
+ document_link = \u5b9f\u73fe\u53ef\u80fd\u6027\u8abf\u67fb\u8cc7\u6599
+
+ document_name = \u8cc7\u6599\u306e\u30ea\u30f3\u30af
+
+ document_type = \u8cc7\u6599\u306e\u7a2e\u985e
+
+ documentation.closure     = \u95a2\u9023\u8cc7\u6599
+ documentation.control     = \u95a2\u9023\u8cc7\u6599
+ documentation.edit        = \u30ea\u30f3\u30af\u306e\u7de8\u96c6
+ documentation.initiating  = \u95a2\u9023\u8cc7\u6599
+ documentation.investment  = \u6295\u8cc7\u8cc7\u6599
+ documentation.planning    = \u95a2\u9023\u8cc7\u6599
+ documentation.procurement = \u767a\u6ce8\u8cc7\u6599
+ documentation.risk        = \u30ea\u30b9\u30af\u7ba1\u7406\u8cc7\u6599
+ documentation.validate    = \u691c\u8a3c&\u4fdd\u5b58
+
+ download = \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9
+
+ dso_control = DSO\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+
+ dso_control.dso               = DSO
+ dso_control.dso_billed        = \u767b\u9332\u6e08\u307fDSO
+ dso_control.dso_unbilled      = \u672a\u767b\u9332DSO
+ dso_control.sales_outstanding = DSO
+ dso_control.wip               = WIP
+
+ duration = \u671f\u9593
+
+ earned_value = EV
+
+ edit = \u7de8\u96c6
+
+ edit_activity = \u30bf\u30b9\u30af\u306e\u7de8\u96c6
+
+ edit_resource = \u30ea\u30bd\u30fc\u30b9\u30a2\u30b5\u30a4\u30f3\u30e1\u30f3\u30c8
+
+ effort = \u5de5\u6570
+
+ error = \u30a8\u30e9\u30fc:
+
+ exec_date = \u958b\u59cb\u4e88\u5b9a\u65e5
+
+ execute_project = \u5b9f\u884c
+
+ executive_report = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u51fa\u529b
+
+ expense = \u7d4c\u8cbb
+
+ expense.add                  = \u7d4c\u8cbb\u306e\u8ffd\u52a0
+
+ expenses = \u7d4c\u8cbb
+
+ expenses.approve             = \u7d4c\u8cbb\u7ba1\u7406\u306e\u627f\u8a8d
+ expenses.autorization_number = \u8a31\u53efNo.
+ expenses.comments            = \u30b3\u30e1\u30f3\u30c8
+ expenses.day                 = \u65e5
+ expenses.paid                = \u652f\u6255\u6e08
+ expenses.paid_employee       = \u652f\u6255\u6e08
+ expenses.reimburs            = \u8fd4\u6e08
+ expenses.reject_reason       = \u62d2\u5426\u306e\u7406\u7531
+ expenses.reject_sheet        = \u6708\u306e\u7d4c\u8cbb\u30b7\u30fc\u30c8\u3092\u62d2\u5426\u3059\u308b
+ expenses.release_approval    = Release for Approval
+ expenses.sheet               = \u7d4c\u8cbb\u30b7\u30fc\u30c8
+ expenses.tracking            = \u7d4c\u8cbb\u7ba1\u7406
+ expenses.type                = \u7d4c\u8cbb\u7a2e\u985e
+
+ expensesheet.operation = \u4f5c\u696d\u7d4c\u8cbb
+ expensesheet.project   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d4c\u8cbb
+
+ export.csv        = \uff23\uff33\uff36\u51fa\u529b
+
+ export_month = \u30a8\u30af\u30b9\u30dd\u30fc\u30c8\u6708
+
+ export_sheet = \u30a8\u30af\u30b9\u30dd\u30fc\u30c8\u30b7\u30fc\u30c8
+
+ export_to_redmine = Redmine\u3078\u30a8\u30af\u30b9\u30dd\u30fc\u30c8\u3059\u308b
+
+ extend-session = \u62e1\u5f35\u30bb\u30c3\u30b7\u30e7\u30f3
+
+ external_costs = \u793e\u5916\u539f\u4fa1
+
+ filter = \u30d5\u30a3\u30eb\u30bf\u30fc
+
+ filter.advanced = (\u7d5e\u8fbc\u6761\u4ef6)
+ filter.apply    = \u5b9f\u884c
+ filter.button   = \u30d5\u30a3\u30eb\u30bf\u30fc
+ filter.default  = \u30c7\u30d5\u30a9\u30eb\u30c8
+ filter.reset    = \u30ea\u30bb\u30c3\u30c8
+
+ finance_accounts = \u30d5\u30a1\u30a4\u30ca\u30f3\u30b9\u30a2\u30ab\u30a6\u30f3\u30c8
+
+ finance_chart = \u30d5\u30a1\u30a4\u30ca\u30f3\u30b9\u30c1\u30e3\u30fc\u30c8
+
+ financial = \u30d5\u30a1\u30a4\u30ca\u30f3\u30b9
+
+ find = \u691c\u7d22
+
+ find.result = \u691c\u7d22\u7d50\u679c
+
+ finish = \u7d42\u4e86\u65e5
+
+ followup = \u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7
+
+followup.ac                     = AC
+ followup.actual_cost            = \u5b9f\u8cbb
+ followup.complete               = \u9032\u6357\u7387\uff08%\uff09
+ followup.cost_comments          = \u539f\u4fa1\u30b3\u30e1\u30f3\u30c8
+ followup.cpi                    = CPI
+followup.cv                     = CV
+ followup.date                   = \u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u65e5\u4ed8
+ followup.days_date              = \u6b8b\u308a\u306e\u65e5\u6570
+ followup.eac                    = EAC
+ followup.earner_management      = EVM
+ followup.earner_management.item = EVM\u30a2\u30a4\u30c6\u30e0
+followup.es                     = ES
+ followup.ev                     = EV
+ followup.general_comments       = \u5168\u4f53\u30b3\u30e1\u30f3\u30c8
+ followup.poc                    = \u9032\u6357\u7387\uff08%\uff09
+ followup.pv                     = PV
+ followup.risk_comments          = \u30ea\u30b9\u30af\u30b3\u30e1\u30f3\u30c8
+ followup.schedule_comments      = \u8a08\u753b\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u30b3\u30e1\u30f3\u30c8
+ followup.spi                    = SPI
+ followup.spit                   = SPI(t)
+ followup.status                 = \u30b9\u30c6\u30fc\u30bf\u30b9
+ followup.status_H               = \u9ad8
+ followup.status_L               = \u4f4e
+ followup.status_M               = \u4e2d
+ followup.status_N               = \u4e00\u822c
+ followup.status_cost            = \u539f\u4fa1\u30b9\u30c6\u30fc\u30bf\u30b9
+ followup.status_date            = \u671f\u65e5\u30b9\u30c6\u30fc\u30bf\u30b9
+ followup.status_general         = \u5168\u4f53\u30b9\u30c6\u30fc\u30bf\u30b9
+ followup.status_risk            = \u30ea\u30b9\u30af\u30b9\u30c6\u30fc\u30bf\u30b9
+ followup.status_schedule        = \u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u30b9\u30c6\u30fc\u30bf\u30b9
+followup.sv                     = SV
+ followup.svt                    = SV(t)
+followup.tv                     = TV%
+ followup.tvac                   = TVAC%
+ followup.vac                    = VAC%
+ followup.workdays               = \u4f5c\u696d\u65e5
+
+ ftes_for_month = \u6708\u306eFTE
+
+ functional_manager = \u672c\u90e8\u30de\u30cd\u30fc\u30b8\u30e3
+
+ funding = \u8cc7\u91d1
+
+ funding.actual_date  = \u5b9f\u65e5\u4ed8
+ funding.actual_value = \u5b9f\u969b\u5024
+ funding.chart        = \u8cc7\u91d1\u30c1\u30e3\u30fc\u30c8
+ funding.control      = \u8cc7\u91d1\u5b9f\u7e3e
+ funding.days_date    = \u6b8b\u308a\u306e\u65e5\u6570
+ funding.description  = \u8aac\u660e
+ funding.due_date     = \u5c65\u884c\u671f\u65e5
+ funding.due_value    = \u57fa\u6e96\u5024
+ funding.value        = \u57fa\u6e96\u5024
+
+ funding_source = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9
+
+ general = \u5168\u4f53
+
+ generate_closure_report = \u30af\u30ed\u30fc\u30ba\u30ec\u30dd\u30fc\u30c8\u3092\u751f\u6210
+
+ generate_project_charter = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u3092\u751f\u6210
+
+ geography = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21
+
+ go = \u5b9f\u884c
+
+ hour_min = \u6642\u9593
+
+ id = ID
+
+ import.actuals          = \u5b9f\u7e3e\u3092\u30a4\u30f3\u30dd\u30fc\u30c8\u3059\u308b
+
+ import_project_baseline = MS\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d9\u30fc\u30b9\u30e9\u30a4\u30f3\u306e\u30a4\u30f3\u30dd\u30fc\u30c8
+
+ income = \u53ce\u5165
+
+ income.actual_payment_date = \u5b9f\u652f\u6255\u65e5
+ income.description         = \u8aac\u660e
+ income.planned_amount      = \u4e88\u5b9a\u984d
+ income.planned_bill_date   = Planned Bill Date
+ income.planned_date        = \u4e88\u5b9a\u65e5
+
+ income_forecast = \u53ce\u76ca\u5b9f\u73fe\u4e88\u671f
+
+ indirect_costs = \u9593\u63a5\u539f\u4fa1
+
+ infrastructurecost = \u9593\u63a5\u8cbb\u7528
+
+ infrastructurecosts = \u9593\u63a5\u8cbb\u7528
+
+ infrastructurecosts.cost = \u9805\u76ee
+infrastructurecosts.name = \u30a4\u30f3\u30d5\u30e9\u540d
+
+ init_date = \u958b\u59cb\u65e5
+
+ initiation = \u6982\u8981
+
+ internal_effort = \u5185\u90e8\u5de5\u6570
+
+ internal_projects = \u5185\u90e8\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+
+ investment = \u6295\u8cc7
+
+ investment.approve              = \u6295\u8cc7\u306e\u627f\u8a8d
+ investment.baseline_finish      = \u7d42\u4e86\u4e88\u5b9a\u65e5
+ investment.baseline_start       = \u958b\u59cb\u4e88\u5b9a\u65e5
+ investment.cancel               = \u6295\u8cc7\u306e\u975e\u627f\u8a8d
+ investment.change_status        = \u30b9\u30c6\u30fc\u30bf\u30b9\u5909\u66f4
+ investment.no_way_back          = \u3053\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u3053\u3068\u306b\u306a\u308a\u307e\u3059\u3002\u4eca\u5f8c\u3001\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u305f\u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc\u304c\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u3001\u7d4c\u8cbb\u30b7\u30fc\u30c8\u306b\u767b\u9332\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002
+ investment.probability_shot     = \u53ef\u80fd\u6027\uff08%\uff09
+ investment.reject               = \u6295\u8cc7\u306e\u62d2\u5426
+ investment.relevant_information = \u6295\u8cc7\u95a2\u9023\u60c5\u5831
+ investment.reset                = \u6295\u8cc7\u306e\u30ea\u30bb\u30c3\u30c8
+
+ investment_manager = \u4f01\u753b\u7d71\u62ec\u30de\u30cd\u30fc\u30b8\u30e3
+
+ investments = \u6295\u8cc7
+
+ investments.approve  = \u627f\u8a8d
+ investments.inactive = \u4fdd\u7559\u30af\u30ed\u30fc\u30ba
+ investments.reject   = \u5426\u8a8d
+ investments.status.A = \u627f\u8a8d\u6e08
+ investments.status.C = \u7d42\u4e86
+ investments.status.I = \u4e2d\u6b62
+ investments.status.P = \u672a\u627f\u8a8d
+ investments.status.R = \u5426\u8a8d
+
+ issue = \u8ab2\u984c
+
+ issue.assigned_to = \u30a2\u30b5\u30a4\u30f3\u5bfe\u8c61
+ issue.close_date  = \u7d42\u4e86\u65e5
+ issue.description = \u8aac\u660e
+ issue.due_date    = \u5c65\u884c\u671f\u65e5
+ issue.priority    = \u512a\u5148\u5ea6
+ issue.raise_date  = \u63d0\u51fa\u65e5
+ issue.rating      = \u30ec\u30d9\u30eb
+ issue.resolution  = \u89e3\u6c7a\u7b56
+ issue.status      = \u30b9\u30c6\u30fc\u30bf\u30b9
+ issue.target_date = \u76ee\u6a19\u65e5
+
+ issue_closed = \u7d42\u4e86
+
+ issue_log = \u8ab2\u984c\u4e00\u89a7
+
+ issue_opened = \u30aa\u30fc\u30d7\u30f3
+
+ iwo = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc
+
+ iwo.actual  = \u5b9f\u7e3e
+ iwo.date    = \u671f\u65e5
+ iwo.desc    = \u8aac\u660e
+ iwo.planned = \u8a08\u753b
+ iwo.value   = \u984d
+
+ iwos = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc
+
+ kpi = \u6307\u6a19
+
+ kpi.definition           = \u5b9a\u7fa9
+ kpi.lower_threshold      = \u95be\u5024
+ kpi.metric               = \u30e1\u30c8\u30ea\u30c3\u30af
+kpi.name                 = \u6307\u6a19
+ kpi.normalized_value     = \u6a19\u6e96\u5024
+ kpi.score                = \u70b9\u6570
+ kpi.upper_threshold      = \u76ee\u6a19\u5024
+ kpi.value                = \u5024
+ kpi.weight               = \u4fc2\u6570
+
+ kpi_cuantitative_control = \u6307\u6a19\u306e\u5b9a\u91cf\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+
+ kpi_program = \u30d7\u30ed\u30b0\u30e9\u30e0\u6307\u6a19
+
+ kpi_project = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6307\u6a19
+
+ language = \u8a00\u8a9e
+
+ learned_lessons = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6559\u8a13
+
+ licensecost = \u30e9\u30a4\u30bb\u30f3\u30b9\u30b3\u30b9\u30c8
+
+ licensescosts = \u30e9\u30a4\u30bb\u30f3\u30b9\u30b3\u30b9\u30c8
+
+ licensescosts.cost = \u30b3\u30b9\u30c8
+licensescosts.name = \u30e9\u30a4\u30bb\u30f3\u30b9\u540d
+
+ loading_chart = \u30c1\u30e3\u30fc\u30c8\u3092\u30ed\u30fc\u30c9\u3057\u3066\u3044\u307e\u3059\u3002
+
+ locale.en_US = \u82f1\u8a9e
+ locale.es_ES = \u30b9\u30da\u30a4\u30f3\u8a9e
+
+ login = \u30ed\u30b0\u30a4\u30f3
+
+ logoff = \u30ed\u30b0\u30aa\u30d5
+
+ maintenance.budgetaccounts                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.budgetaccounts.description          = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8\u8aac\u660e
+ maintenance.budgetaccounts.edit                 = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u7de8\u96c6
+ maintenance.budgetaccounts.new                  = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.budgetaccounts.type_cost            = \u30b3\u30b9\u30c8\u7a2e\u985e
+ maintenance.businessline                        = \u696d\u7a2e
+ maintenance.businessline.description            = \u696d\u7a2e\u8aac\u660e
+ maintenance.businessline.edit                   = \u696d\u7a2e\u306e\u7de8\u96c6
+ maintenance.businessline.new                    = \u696d\u7a2e\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.businessline.perf_org               = \u90e8\u7f72
+ maintenance.calendar_base                       = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9
+ maintenance.calendar_base.edit                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9\u306e\u7de8\u96c6
+maintenance.calendar_base.name                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u540d
+ maintenance.calendar_base.new                   = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.calendar_base.template_calendar     = \u30ab\u30ec\u30f3\u30c0\u30fc\u306e\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u306e\u5229\u7528
+ maintenance.categories                          = \u30ab\u30c6\u30b4\u30ea\u30fc
+ maintenance.category                            = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u5225
+ maintenance.category.description                = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u5225\u306e\u8aac\u660e
+ maintenance.category.edit                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u5225\u306e\u7de8\u96c6
+maintenance.category.name                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u5225
+ maintenance.category.new                        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u5225\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.change_types                        = \u5909\u66f4\u7a2e\u5225
+ maintenance.change_types.description            = \u5909\u66f4\u7a2e\u5225\u8aac\u660e
+ maintenance.change_types.edit                   = \u5909\u66f4\u7a2e\u5225\u306e\u7de8\u96c6
+ maintenance.change_types.new                    = \u5909\u66f4\u7a2e\u5225\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.company                             = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ maintenance.company.edit                        = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u306e\u7de8\u96c6
+maintenance.company.name                        = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ maintenance.company.new                         = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.contact                             = \u30b3\u30f3\u30bf\u30af\u30c8
+ maintenance.contact.business_address            = \u30aa\u30d5\u30a3\u30b9\u4f4f\u6240
+ maintenance.contact.business_phone              = \u30aa\u30d5\u30a3\u30b9\u96fb\u8a71\u756a\u53f7
+ maintenance.contact.company                     = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ maintenance.contact.edit                        = \u30b3\u30f3\u30bf\u30af\u30c8\u306e\u7de8\u96c6
+ maintenance.contact.email                       = \u30e1\u30fc\u30eb
+ maintenance.contact.file_as                     = \u6240\u5c5e\u90e8\u8ab2
+ maintenance.contact.full_name                   = \u30b3\u30f3\u30bf\u30af\u30c8\u30cd\u30fc\u30e0
+ maintenance.contact.job_title                   = \u5f79\u8077
+ maintenance.contact.mobile_phone                = \u643a\u5e2f\u96fb\u8a71
+ maintenance.contact.new                         = \u30b3\u30f3\u30bf\u30af\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.contact.notes                       = \u5099\u8003
+ maintenance.contact.username                    = \u30e6\u30fc\u30b6\u30fc\u540d
+ maintenance.contacts                            = \u30b3\u30f3\u30bf\u30af\u30c8
+ maintenance.contract_types                      = \u5951\u7d04\u7a2e\u985e
+ maintenance.contracttype                        = \u5951\u7d04\u7a2e\u985e
+ maintenance.contracttype.description            = \u5951\u7d04\u7a2e\u985e\u8aac\u660e
+ maintenance.contracttype.edit                   = \u5951\u7d04\u7a2e\u985e\u306e\u7de8\u96c6
+ maintenance.contracttype.new                    = \u5951\u7d04\u7a2e\u985e\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.customer_types                      = \u62c5\u5f53\u672c\u90e8
+ maintenance.customers                           = \u9867\u5ba2
+ maintenance.customers.description               = \u9867\u5ba2\u8aac\u660e
+ maintenance.customers.edit                      = \u9867\u5ba2\u7de8\u96c6
+maintenance.customers.name                      = \u9867\u5ba2\u540d
+ maintenance.customers.new                       = \u9867\u5ba2\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.customers.type                      = \u62c5\u5f53\u672c\u90e8
+ maintenance.document.edit_document              = \u8cc7\u6599\u306e\u7de8\u96c6
+ maintenance.document.new_document               = \u65b0\u3057\u3044\u8cc7\u6599\u306e\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9
+ maintenance.documentation_manuals               = \u8cc7\u6599&\u30de\u30cb\u30e5\u30a2\u30eb
+ maintenance.documentation_manuals.documentation = \u8cc7\u6599
+ maintenance.documentation_manuals.edit          = \u8cc7\u6599\u306e\u7de8\u96c6
+ maintenance.documentation_manuals.file          = \u30d5\u30a1\u30a4\u30eb
+ maintenance.documentation_manuals.file_name     = \u30d5\u30a1\u30a4\u30eb\u540d
+maintenance.documentation_manuals.name          = \u8cc7\u6599\u540d
+ maintenance.documentation_manuals.new           = \u8cc7\u6599\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.employee                            = \u793e\u54e1
+ maintenance.employee.contact                    = \u30b3\u30f3\u30bf\u30af\u30c8
+ maintenance.employee.cost_rate                  = \u5358\u4fa1
+ maintenance.employee.date                       = \u671f\u65e5
+ maintenance.employee.edit                       = \u793e\u54e1\u306e\u7de8\u96c6
+ maintenance.employee.email.login                = \u30ed\u30b0\u30a4\u30f3
+ maintenance.employee.email.user_register        = {0} \u306f\u30ed\u30b0\u30a4\u30f3\u8a73\u7d30\u3067\u3059\u3002
+ maintenance.employee.new                        = \u793e\u54e1\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.employee.password                   = \u30d1\u30b9\u30ef\u30fc\u30c9
+ maintenance.employee.perf_org                   = \u90e8\u7f72
+ maintenance.employee.profile                    = \u30ed\u30fc\u30eb
+ maintenance.employee.profile_date               = \u671f\u65e5
+ maintenance.employee.reset_password             = \u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u30ea\u30bb\u30c3\u30c8
+ maintenance.employee.resource_manager           = \u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3
+ maintenance.employee.skills                     = \u30b9\u30ad\u30eb
+ maintenance.employee.username                   = \u30e6\u30fc\u30b6\u30fc\u540d
+ maintenance.error_email                         = \u30e1\u30fc\u30eb\u306e\u30d5\u30a9\u30fc\u30de\u30c3\u30c8\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002
+ maintenance.error_msg                           = {0}\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ maintenance.error_msg_a                         = {0}\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ maintenance.error_msg_project                   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8{0}\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ maintenance.error_msg_select                    = {0}\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ maintenance.error_msg_select_a                  = {0}\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ maintenance.expense_charge_accounts             = \u7d4c\u8cbb\u7533\u8acb\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.expenseaccounts                     = \u7d4c\u8cbb\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.expenseaccounts.description         = \u7d4c\u8cbb\u30a2\u30ab\u30a6\u30f3\u30c8\u8aac\u660e
+ maintenance.expenseaccounts.edit                = \u7d4c\u8cbb\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u7de8\u96c6
+ maintenance.expenseaccounts.new                 = \u7d4c\u8cbb\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.fundingsource                       = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9
+ maintenance.fundingsource.edit                  = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9\u306e\u7de8\u96c6
+maintenance.fundingsource.name                  = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9\u540d
+ maintenance.fundingsource.new                   = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.geographic_places                   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21
+ maintenance.geography                           = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21
+ maintenance.geography.description               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21\u306e\u8aac\u660e
+ maintenance.geography.edit                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21\u306e\u7de8\u96c6
+maintenance.geography.name                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21
+ maintenance.geography.new                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.metric_kpi                          = \u6307\u6a19
+ maintenance.operation                           = \u4f5c\u696d
+ maintenance.operation.code                      = \u4f5c\u696d\u30b3\u30fc\u30c9
+ maintenance.operation.edit                      = \u4f5c\u696d\u306e\u7de8\u96c6
+maintenance.operation.name                      = \u4f5c\u696d\u540d
+ maintenance.operation.new                       = \u4f5c\u696d\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.operation.op_account                = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.operation_accounts                  = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.operationaccount                    = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.operationaccount.description        = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8\u8aac\u660e
+ maintenance.operationaccount.edit               = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u7de8\u96c6
+ maintenance.operationaccount.new                = \u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.perfoming_org                       = \u672c\u90e8
+ maintenance.perfoming_org.company               = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ maintenance.perfoming_org.edit                  = \u672c\u90e8\u306e\u7de8\u96c6
+ maintenance.perfoming_org.functional_manager    = \u672c\u90e8\u30de\u30cd\u30fc\u30b8\u30e3
+ maintenance.perfoming_org.manager               = \u30de\u30cd\u30fc\u30b8\u30e3
+maintenance.perfoming_org.name                  = \u672c\u90e8\u540d
+ maintenance.perfoming_org.new                   = \u672c\u90e8\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.perfoming_org.onsaas                = Saas
+ maintenance.perfoming_org.price                 = \u539f\u4fa1\u30ea\u30b9\u30c8
+ maintenance.performing_organizations            = \u672c\u90e8
+ maintenance.procurement.edit_payment            = \u767a\u6ce8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306e\u7de8\u96c6
+ maintenance.procurement.edit_seller             = \u767a\u6ce8\u5148\u7de8\u96c6
+ maintenance.procurement.edit_sow                = SOW\uff06\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u306e\u7de8\u96c6
+ maintenance.procurement.edit_work               = \u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306e\u7de8\u96c6
+ maintenance.procurement.new_payment             = \u767a\u6ce8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.procurement.new_sow                 = SOW\uff06\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.procurement.new_work                = \u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.profiles                            = \u30ed\u30fc\u30eb
+ maintenance.program                             = \u30d7\u30ed\u30b0\u30e9\u30e0
+ maintenance.program.code                        = \u30d7\u30ed\u30b0\u30e9\u30e0\u30b3\u30fc\u30c9
+ maintenance.program.company                     = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7
+ maintenance.program.doc                         = \u95a2\u9023\u8cc7\u6599
+ maintenance.program.edit                        = \u30d7\u30ed\u30b0\u30e9\u30e0\u7de8\u96c6
+ maintenance.program.goals                       = \u30d7\u30ed\u30b0\u30e9\u30e0\u76ee\u6a19
+ maintenance.program.income_forecast             = \u53ce\u76ca\u5b9f\u73fe\u4e88\u671f
+ maintenance.program.manager                     = \u30d7\u30ed\u30b0\u30e9\u30e0\u30de\u30cd\u30fc\u30b8\u30e3
+maintenance.program.name                        = \u30d7\u30ed\u30b0\u30e9\u30e0\u540d
+ maintenance.program.new                         = \u30d7\u30ed\u30b0\u30e9\u30e0\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.program.title                       = \u30d7\u30ed\u30b0\u30e9\u30e0\u30bf\u30a4\u30c8\u30eb
+ maintenance.project_charge_accounts             = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u8acb\u6c42\u30a2\u30ab\u30a6\u30f3\u30c8
+ maintenance.resource                            = \u30ea\u30bd\u30fc\u30b9
+ maintenance.resource.contact                    = \u30b3\u30f3\u30bf\u30af\u30c8
+ maintenance.resource.cost_rate                  = \u5358\u4fa1
+ maintenance.resource.date                       = \u671f\u65e5
+ maintenance.resource.edit                       = \u30ea\u30bd\u30fc\u30b9\u306e\u7de8\u96c6
+ maintenance.resource.email.login                = \u30ed\u30b0\u30a4\u30f3\u30ea\u30bd\u30fc\u30b9
+ maintenance.resource.email.user_register        = {0} \u306f\u30ed\u30b0\u30a4\u30f3\u8a73\u7d30\u3067\u3059\u3002
+ maintenance.resource.new                        = \u30ea\u30bd\u30fc\u30b9\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.resource.password                   = \u30d1\u30b9\u30ef\u30fc\u30c9
+ maintenance.resource.perf_org                   = \u672c\u90e8
+ maintenance.resource.profile                    = \u30ed\u30fc\u30eb
+ maintenance.resource.profile_date               = \u671f\u65e5
+ maintenance.resource.reset_password             = \u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u30ea\u30bb\u30c3\u30c8
+ maintenance.resource.resource_manager           = \u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3
+ maintenance.resource.username                   = \u30e6\u30fc\u30b6\u30fc\u540d
+ maintenance.resources                           = \u55b6\u696d\u62c5\u5f53
+ maintenance.seller                              = \u767a\u6ce8\u5148
+ maintenance.sellers                             = \u767a\u6ce8\u5148
+ maintenance.sellers.edit                        = \u767a\u6ce8\u5148\u7de8\u96c6
+ maintenance.sellers.information                 = \u767a\u6ce8\u5148\u60c5\u5831
+maintenance.sellers.name                        = \u767a\u6ce8\u5148
+ maintenance.sellers.new                         = \u767a\u6ce8\u5148\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.sellers.qualified                   = \u8a8d\u5b9a
+ maintenance.sellers.qualified_date              = \u8a8d\u5b9a\u65e5
+ maintenance.sellers.selected                    = \u9078\u629e
+ maintenance.sellers.single_source               = \u30b7\u30f3\u30b0\u30eb\u30bd\u30fc\u30b9
+ maintenance.sellers.sole_source                 = \u7279\u6709\u30bd\u30fc\u30b9
+ maintenance.skill                               = \u30b9\u30ad\u30eb
+ maintenance.skill.description                   = \u30b9\u30ad\u30eb\u8aac\u660e
+ maintenance.skill.edit                          = \u30b9\u30ad\u30eb\u306e\u7de8\u96c6
+maintenance.skill.name                          = \u30b9\u30ad\u30eb\u540d
+ maintenance.skill.new                           = \u30b9\u30ad\u30eb\u306e\u65b0\u898f\u4f5c\u6210
+ maintenance.skills                              = \u30b9\u30ad\u30eb
+
+manager.id   = ID
+manager.name = \u540d\u79f0
+
+ menu.assignations_approvals        = \u30a2\u30b5\u30a4\u30f3\u627f\u8a8d
+ menu.assignments                   = \u30a2\u30b5\u30a4\u30f3
+ menu.base_calendar                 = \u30ab\u30ec\u30f3\u30c0\u30fc
+ menu.calendar                      = \u30ab\u30ec\u30f3\u30c0\u30fc
+ menu.control_accounts              = \u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\uff08CA\uff09
+ menu.cualitative_control           = \u5b9a\u6027\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+ menu.cuantitative_control          = \u5b9a\u91cf\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+ menu.expense_approvals             = \u7d4c\u8cbb
+ menu.expenses_sheet                = \u7d4c\u8cbb\u30b7\u30fc\u30c8
+ menu.home                          = \u30db\u30fc\u30e0
+ menu.home.assigned_projects        = \u5b9a\u91cf\u7684\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb
+ menu.home.employee_zone            = \u793e\u54e1\u30a8\u30ea\u30a2
+ menu.home.imputation_zone          = \u30d1\u30fc\u30bd\u30ca\u30eb\u30a8\u30ea\u30a2
+ menu.home.personal_imputation      = \u30d1\u30fc\u30bd\u30ca\u30eb\u5b9f\u7e3e
+ menu.home.validations              = \u30d0\u30ea\u30c7\u30fc\u30b7\u30e7\u30f3
+ menu.home.work                     = \u4f5c\u696d\u30a8\u30ea\u30a2
+ menu.investment_approvals          = \u6295\u8cc7\u627f\u8a8d
+ menu.investments                   = \u6295\u8cc7
+ menu.kpi                           = \u6307\u6a19
+ menu.kpi_database                  = \u6307\u6a19\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9
+ menu.lessons_learned_database      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6559\u8a13\u306e\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9
+ menu.maintenance                   = \u30e1\u30f3\u30c6\u30ca\u30f3\u30b9
+ menu.maturity_asessments           = \u6210\u719f\u5ea6\u8a55\u4fa1
+ menu.organizational_project_assets = \u8a2d\u5b9a
+ menu.performance_appraisals        = \u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u8a55\u4fa1
+ menu.programs                      = \u30d7\u30ed\u30b0\u30e9\u30e0
+ menu.projects                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ menu.proposals                     = \u6295\u8cc7
+ menu.resource_calendar             = \u30ea\u30bd\u30fc\u30b9\u30ab\u30ec\u30f3\u30c0\u30fc
+ menu.resource_capacity_planning    = \u30ea\u30bd\u30fc\u30b9\u8ca0\u8377\u8a08\u753b
+ menu.resource_capacity_running     = \u30ea\u30bd\u30fc\u30b9\u8ca0\u8377\u72b6\u6cc1
+ menu.resource_control              = \u30ea\u30bd\u30fc\u30b9
+ menu.resource_pool                 = \u30ea\u30bd\u30fc\u30b9\u30d7\u30fc\u30eb
+ menu.risk_database                 = \u30ea\u30b9\u30af\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9
+ menu.time_approvals                = \u7a3c\u52d5
+ menu.time_sheet                    = \u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+
+ metric = \u6307\u6a19
+
+ metric.bsc_dimension = \u57fa\u6e96\u7bc4\u56f2
+ metric.definition    = \u5b9a\u7fa9
+metric.name          = \u6307\u6a19
+
+ milestone = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u30ea\u30b9\u30c8
+
+ milestone.achieved                   = \u9054\u6210
+ milestone.achievement_comments       = \u9054\u6210\u30b3\u30e1\u30f3\u30c8
+ milestone.actual_date                = \u5b9f\u7e3e\u65e5
+ milestone.days_before_date           = \u6b8b\u308a\u65e5
+ milestone.desc                       = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u8aac\u660e
+ milestone.due_date                   = \u5c65\u884c\u671f\u65e5
+ milestone.label                      = \u30e9\u30d9\u30eb
+ milestone.notification_text          = \u30e1\u30fc\u30eb\u901a\u77e5\u5185\u5bb9
+ milestone.notify                     = \u30e1\u30fc\u30eb\u901a\u77e5
+ milestone.planned_date               = \u4e88\u5b9a\u65e5
+ milestone.report_type                = \u30ec\u30dd\u30fc\u30c8\u7a2e\u985e
+ milestone.report_type.milestone_sign = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u30de\u30fc\u30af
+ milestone.report_type.no_report      = \u30ec\u30dd\u30fc\u30c8\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ milestone.show_milestone_sign        = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u30de\u30fc\u30af\u3092\u8868\u793a\u3059\u308b\u3002
+ milestone.show_sign                  = \u30de\u30fc\u30af\u3092\u8868\u793a\u3059\u308b
+
+ milestones = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3
+
+ milestones.list = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u30ea\u30b9\u30c8
+
+ minutes = \u5206
+
+ month = \u6708
+
+ month.min_1         = 1\u6708
+ month.min_10        = 10\u6708
+ month.min_11        = 11\u6708
+ month.min_12        = 12\u6708
+ month.min_2         = 2\u6708
+ month.min_3         = 3\u6708
+ month.min_4         = 4\u6708
+ month.min_5         = 5\u6708
+ month.min_6         = 6\u6708
+ month.min_7         = 7\u6708
+ month.min_8         = 8\u6708
+ month.min_9         = 9\u6708
+ month.month10_short = 10\u6708
+ month.month11_short = 11\u6708
+ month.month12_short = 12\u6708
+ month.month1_short  = 1\u6708
+ month.month2_short  = 2\u6708
+ month.month3_short  = 3\u6708
+ month.month4_short  = 4\u6708
+ month.month5_short  = 5\u6708
+ month.month6_short  = 6\u6708
+ month.month7_short  = 7\u6708
+ month.month8_short  = 8\u6708
+ month.month9_short  = 9\u6708
+ month.month_1       = 1\u6708
+ month.month_10      = 10\u6708
+ month.month_11      = 11\u6708
+ month.month_12      = 12\u6708
+ month.month_2       = 2\u6708
+ month.month_3       = 3\u6708
+ month.month_4       = 4\u6708
+ month.month_5       = 5\u6708
+ month.month_6       = 6\u6708
+ month.month_7       = 7\u6708
+ month.month_8       = 8\u6708
+ month.month_9       = 9\u6708
+
+ motives = Motives
+
+ msg.close_project_confirm                                = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u7d42\u4e86\u3055\u305b\u308b\u3068\u3001\u60c5\u5831\u3092\u8ffd\u52a0\u3001\u5909\u66f4\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.confirm                                              = \u78ba\u8a8d
+ msg.confirm.delete                                       = <b>{0}</b>\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f
+ msg.confirm.delete_all                                   = <b>{0}</b>\u3092\u5168\u3066\u524a\u9664\u3057\u307e\u3059\u304b\uff1f
+ msg.confirm.delete_log_reassessment                      = \u6539\u4fee\u30ed\u30b0\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f
+ msg.confirm_delete                                       = {0}\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f
+ msg.confirm_release                                      = {0}\u3092\u30ea\u30ea\u30fc\u30b9\u3057\u307e\u3059\u304b\uff1f
+ msg.confirm_reset_password                               = \u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5909\u66f4\u3057\u307e\u3059\u304b\uff1f\u65b0\u3057\u3044\u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u30e1\u30fc\u30eb\u9001\u4fe1\u3055\u308c\u307e\u3059\u3002
+ msg.confirm_title_reset_password                         = \u30d1\u30b9\u30ef\u30fc\u30c9\u30ea\u30bb\u30c3\u30c8
+ msg.confirm_wbsnode_delete                               = \u9078\u629e\u3055\u308c\u305fWBS\u30ce\u30fc\u30c9\u3092\u5fb9\u5e95\u7684\u306b\u524a\u9664\u3057\u307e\u3059\u304b\uff1f\\\u30ce\u30fc\u30c9\u306e\u5b50\u53ca\u3073\u95a2\u9023\u30bf\u30b9\u30af\u3068\u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\uff76\uff9e\u524a\u9664\u3059\u308b\u3053\u3068\u306b\u306a\u308a\u307e\u3059\u3002
+ msg.error                                                = \u30a8\u30e9\u30fc
+ msg.error.404                                            = URL\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.Category                                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7a2e\u985e\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.activity_dateafter_charged                     = There is an activity start date and a higher imputed hours
+ msg.error.activity_hours_charged                         = \u30bf\u30b9\u30af\u306e\u304b\u304b\u3063\u305f\u4eba\u6642
+ msg.error.activity_not_cheked                            = Activity not cheked
+ msg.error.approve_project                                = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u627f\u8a8d\u30a8\u30e9\u30fc
+ msg.error.approve_project_kpi_weight                     = \u6307\u6a19\u30a6\u30a7\u30a4\u30c8\u306e\u5408\u8a08\u5024\u304c\uff11\uff10\uff10\u306b\u306a\u308b\u306f\u305a\u3067\u3059\u3002
+ msg.error.assumption_delete                              = \u524a\u9664\u3059\u308b\u524d\u63d0\u6761\u4ef6\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.assumption_log_delete                          = \u524a\u9664\u3059\u308b\u524d\u63d0\u6761\u4ef6\u30ed\u30b0\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.baselinefinish_date_before_baselinestart_date  = \u7d42\u4e86\u4e88\u5b9a\u65e5\u304c\u958b\u59cb\u4e88\u5b9a\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.budgetaccount                                  = \u524a\u9664\u3059\u308b\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.businessline                                   = \u696d\u7a2e\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.calendar                                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ab\u30ec\u30f3\u30c0\u30fc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.calendar_base                                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.cannot_reapprove_an_approved_timesheet         = \u627f\u8a8d\u6e08\u307f\u306e\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u3092\u627f\u8a8d\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.cannot_reject_timesheet_with_approbation_level = Cannot reject a timesheet with approbation level greater than 1
+ msg.error.change_password                                = \u30d1\u30b9\u30ef\u30fc\u30c9\u5909\u66f4\u306b\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002
+ msg.error.charging_hours                                 = \u6642\u9593\u5909\u66f4\u306b\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002
+ msg.error.charging_hours_info                            = \u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u306e\u6642\u9593\u3092\u4e00\u9031\u9593\u5f8c\u306b\u6307\u6458\u3059\u308b\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.company                                        = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.contact                                        = \u524a\u9664\u3059\u308b\u30b3\u30f3\u30bf\u30af\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.contact_has_profile                            = \u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u306f\u65e2\u306b\u540c\u3058\u30ed\u30fc\u30eb\u306b\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.contact_without_employee                       = \u30a2\u30b5\u30a4\u30f3\u3055\u308c\u305f\u793e\u54e1\u304c\u3044\u307e\u305b\u3093\u3002
+ msg.error.contracttype                                   = \u524a\u9664\u3059\u308b\u5951\u7d04\u7a2e\u985e\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.cost_date                                      = Can not enter a cost to date is outside of the project
+ msg.error.cost_no_found                                  = \u539f\u4fa1\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.cost_not_found                                 = \u524a\u9664\u3059\u308b\u30b3\u30b9\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.cost_not_valid                                 = \u539f\u4fa1\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002
+ msg.error.cost_type                                      = \u539f\u4fa1\u7a2e\u985e\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.cost_type_enter                                = \u539f\u4fa1\u7a2e\u985e
+ msg.error.customer                                       = \u9867\u5ba2\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.data                                           = \u767a\u6ce8\u5148\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.date                                           = \u65e5\u4ed8\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.date_after                                     = \u30a4\u30f3\u30b5\u30fc\u30c8\u306e\u671f\u65e5\u304c\u7d42\u4e86\u4e88\u5b9a\u65e5\u3088\u308a\u9045\u3044\u3067\u3059\u3002
+ msg.error.date_after_date                                = {0}\u304c{1}\u3088\u308a\u5f8c\u308d\u3067\u3059\u3002
+ msg.error.date_before                                    = \u53c2\u52a0\u65e5\u304c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u958b\u59cb\u65e5\u3088\u308a\u524d\u3067\u3059\u3002
+ msg.error.date_before_date                               = {0}\u304c{1}\u3088\u308a\u524d\u3067\u3059\u3002
+ msg.error.date_outside_project                           = {0} \u304c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u7bc4\u56f2\u5916\u3067\u3059\u3002
+ msg.error.day                                            = \u671f\u65e5\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.day_out_of_range                               = \u671f\u65e5\u304c\u7bc4\u56f2\u5916\u3067\u3059\u3002
+ msg.error.delete.seller                                  = <b>{0}</b>\u306f<b>{1}</b>\u3068\u95a2\u9023\u3057\u3066\u3044\u307e\u3059\u306e\u3067\u3001\u524a\u9664\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.delete.this_has                                = <b>{0}</b>\u306f<b>{1}</b>\u306b\u4f7f\u7528\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.destination_mail_not_found                     = \u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u304c\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.document_read                                  = \u3053\u306e\u8cc7\u6599\u306f\u8aad\u307f\u53d6\u308a\u5c02\u7528\u3067\u3059\u3002
+ msg.error.employee                                       = \u793e\u54e1\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.employee_is_already_assigned                   = \u3053\u306e\u793e\u54e1\u306f\u3053\u306e\u6642\u9593\u5e2f\u306b\u3066\u65e2\u306b\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.end_date_after_planned_close_date              = \u7d42\u4e86\u65e5\u304c\u7d42\u4e86\u4e88\u5b9a\u65e5\u3088\u308a\u9045\u3044\u3067\u3059\u3002
+ msg.error.enddate_before_initdate                        = \u7d42\u4e86\u65e5\u304c\u958b\u59cb\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.expenseaccounts                                = \u7d4c\u8cbb\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.export_to_csv                                  = \u30a8\u30af\u30b9\u30dd\u30fc\u30c8\u30a8\u30e9\u30fc
+ msg.error.finish_date_before_start_date                  = \u7d42\u4e86\u5b9f\u7e3e\u65e5\u304c\u958b\u59cb\u5b9f\u7e3e\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.followup                                       = \u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.form_mail_not_found                            = \u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u304c\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.format-max                                     = {0} \u304c {1}\u3088\u308a\u5927\u304d\u3044\u306f\u305a\u3067\u3059\u3002
+ msg.error.format-min                                     = {0} \u304c{1}\u3088\u308a\u5c0f\u3055\u3044\u306f\u305a\u3067\u3059\u3002
+ msg.error.fte_total                                      = FTE \u306e\u7dcf\u984d\u304c\uff11\uff10\uff10%\u3092\u8d85\u3048\u3066\u3044\u307e\u3059\u3002
+ msg.error.geography                                      = \u524a\u9664\u3059\u308b\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u898f\u6a21\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.income_delete                                  = \u524a\u9664\u3059\u308b\u53ce\u5165\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.incorrect_operation                            = \u9078\u629e\u3055\u308c\u305f\u4f5c\u696d\u304c\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u306b\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.init_date_before_project_init_date             = \u958b\u59cb\u65e5\u304c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u958b\u59cb\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.invalid_format                                 = {0} \u30d5\u30a9\u30fc\u30de\u30c3\u30c8\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002({1})
+ msg.error.is_already_a_stakeholder                       = \u5f53\u8a72\u30b3\u30f3\u30bf\u30af\u30c8\u306f\u65e2\u306b\u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u3067\u3059\u3002
+ msg.error.issue_delete                                   = \u524a\u9664\u3059\u308b\u8ab2\u984c\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.iwo_delete                                     = \u524a\u9664\u3059\u308b\u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.iwo_description                                = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u306e\u8aac\u660e
+ msg.error.kpi_total_weight                               = \u6307\u6a19\u306e\u4fc2\u6570\u306e\u5408\u8a08\u5024\u306f\uff11\uff10\uff10\u306b\u306a\u308b\u306f\u305a\u3067\u3059\u3002
+ msg.error.lessons_required                               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6559\u8a13\u306f\u5165\u529b\u5fc5\u9808\u9805\u76ee\u3067\u3059\uff08URL\u307e\u305f\u306f\u30b3\u30e1\u30f3\u30c8\uff09
+ msg.error.login_max_attempts                             = \u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u30ed\u30c3\u30af\u3055\u308c\u3066\u3044\u307e\u3059\u3002{0}\u5206\u5f85\u3063\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.login_user_expired                             = \u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u5931\u52b9\u3055\u308c\u307e\u3057\u305f\u3002\u5931\u52b9\u65e5\u306f<b>{0}</b>
+ msg.error.lose_num_competitors                           = \u7af6\u4e89\u8005\u6570\u306f\u6700\u7d42\u30dd\u30b8\u30b7\u30e7\u30f3\u3088\u308a\u9ad8\u3044\u306f\u305a\u3067\u3059\u3002
+ msg.error.lose_proposal_position                         = You can't lose investment being in first position
+ msg.error.lose_proposal_probability                      = \u6210\u529f\u53ef\u80fd\u6027\u304c100%\u306e\u5834\u5408\u3001\u8cc7\u91d1\u904b\u55b6\u306b\u5931\u6557\u306f\u4e0d\u53ef\u3067\u3059\u3002
+ msg.error.max_value                                      = {0}\u306e\u6700\u5927\u5024\u306f{1}\u3067\u3059\u3002
+ msg.error.maximum_allowed                                = {0} \u304c\u4e0a\u9650\u3092\u8d85\u3048\u3044\u307e\u3059\u3002
+ msg.error.metric_is_in_use                               = \u3053\u306e\u6307\u6a19\u304c\u65e2\u306b\u4f7f\u308f\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.milestone_date                                 = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u4ee5\u5916\u306e\u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u5165\u529b\u306f\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.milestones_without_activity                    = \u5168\u3066\u306e\u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u306b\u30bf\u30b9\u30af\u304c\u3042\u308b\u306f\u305a\u3067\u3059\u3002
+ msg.error.min_value                                      = {1}\u306e\u6700\u5c0f\u5165\u529b\u5024\u306f{0}\u3067\u3059\u3002
+ msg.error.msproject_activities_found                     = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306b\u30bf\u30b9\u30af\u307e\u305fWBS\u30ce\u30fc\u30c9\u304c\u3042\u308b\u5834\u5408\u3001\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ed\u30fc\u30c9\u3067\u304d\u307e\u305b\u3093\u3002\uff08WBS\u81ea\u52d5\u751f\u6210\u306e\u5834\u5408\u306f\u4f8b\u5916\u3067\u3059\u3002\uff09
+ msg.error.msproject_no_activity                          = MS\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306b\u30bf\u30b9\u30af\u304c\u3042\u308b\u306f\u305a\u3067\u3059\u3002
+ msg.error.ni_empty                                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d14\u5229\u76ca\u306f\u7a7a\u767d\u306b\u306a\u3063\u3066\u3044\u307e\u3059\u3002
+ msg.error.no_hours                                       = \u627f\u8a8d\u306e\u4f5c\u696d\u6642\u9593\u304c\u5165\u529b\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.no_initiating_approve_project                  = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306f\u627f\u8a8d\u6e08\u307f\u3067\u3059\u3002
+ msg.error.no_program_approve_project                     = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u627f\u8a8d\u306e\u305f\u3081\u3001\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.no_project_data_entered                        = \u5165\u529b\u306e\u671f\u65e5\u304c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u7bc4\u56f2\u5916\u3067\u3059\u3002
+ msg.error.no_selected_file                               = \u9078\u629e\u306e\u30d5\u30a1\u30a4\u30eb\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.no_selected_file_info                          = \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u306e\u30d5\u30a1\u30a4\u30eb\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.no_sponsor                                     = \u30b9\u30dd\u30f3\u30b5\u30fc\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.no_stakeholders_approve_project                = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u3092\u9078\u3093\u3067\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u627f\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.no_strategic_value_approve_project             = \u3053\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306f\u76ee\u6a19\u984d\u304c\u6307\u5b9a\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.not-exist                                      = \u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_assigned                                   = \u65e5\u4ed8\u306f\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ab\u30ec\u30f3\u30c0\u30fc\u4e2d\u306b\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_assumption_found                           = \u524d\u63d0\u6761\u4ef6\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_edit_team_member                           = \u524a\u9664\u4e2d\u3001\u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc\u306e\u7de8\u96c6\u306f\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.not_equal_to                                   = <b>{0}</b>\u304c<b>{1}</b>\u3068\u4e00\u81f4\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.not_followup_found                             = \u524a\u9664\u3059\u308b\u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_for_showing                                = {1}\u3092\u8868\u793a\u3059\u308b {0} \u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_found_any                                  = <b>{1}</b>\u306b <b>{0}</b>\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_issue_found                                = \u8ab2\u984c\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.not_risk_found                                 = \u30ea\u30b9\u30af\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.only_eight                                     = \uff18\u6642\u9593\u306e\u307f\u304c\u8a8d\u3081\u3089\u308c\u307e\u3059\u3002
+ msg.error.operation                                      = \u524a\u9664\u3059\u308b\u4f5c\u696d\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.operation_exists_in_timesheet                  = \u3053\u306e\u4f5c\u696d\u306f\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u306b\u65e2\u306b\u5b58\u5728\u3057\u307e\u3059\u3002
+ msg.error.operationaccount                               = \u524a\u9664\u3059\u308b\u4f5c\u696d\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.operationexpensesheet                          = \u4f5c\u696d\u7d4c\u8cbb\u30b7\u30fc\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.operationtimesheet                             = \u4f5c\u696d\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.out_of_range                                   = {0}\u306f{1}\u306e\u7bc4\u56f2\u3092\u8d85\u3048\u3066\u3044\u307e\u3059\u3002
+ msg.error.pass_incorrect                                 = \u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002
+ msg.error.pass_not_match                                 = \u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u4e00\u81f4\u3057\u307e\u305b\u3093\u3002
+ msg.error.perforg                                        = \u524a\u9664\u3059\u308b\u672c\u90e8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.perforg_customer                               = \u672c\u90e8\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.perforg_name                                   = \u672c\u90e8\u540d
+ msg.error.permission.create_project                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u65b0\u898f\u4f5c\u6210\u306e\u6a29\u9650\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.planned_close_date_before_exec_date            = \u7d42\u4e86\u4e88\u5b9a\u65e5\u304c\u958b\u59cb\u4e88\u5b9a\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.planned_end_before_init                        = \u7d42\u4e86\u4e88\u5b9a\u65e5\u304c\u7d42\u4e86\u958b\u59cb\u65e5\u3088\u308a\u65e9\u3044\u3067\u3059\u3002
+ msg.error.pm_email                                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u304c\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.program                                        = \u30d7\u30ed\u30b0\u30e9\u30e0\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.project                                        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.project_charter_not_sended                     = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u304c\u9001\u4fe1\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.project_code                                   = \u5f53\u8a72\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b3\u30fc\u30c9\u304c\u65e2\u306b\u4f7f\u7528\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.project_code_in_use                            = \u5f53\u8a72\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b3\u30fc\u30c9\u306f\u4f7f\u7528\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.project_cost_autocalculated                    = \u7d4c\u8cbb\u306f\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u3088\u308a\u81ea\u52d5\u8a08\u7b97\u3055\u308c\u307e\u3059\u306e\u3067\u3001\u4fee\u6b63\u307e\u305f\u306f\u524a\u9664\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.project_expense_autocalculated                 = \u7d4c\u8cbb\u306f\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d4c\u8cbb\u30b7\u30fc\u30c8\u3088\u308a\u81ea\u52d5\u8a08\u7b97\u3055\u308c\u307e\u3059\u306e\u3067\u3001\u4fee\u6b63\u307e\u305f\u306f\u524a\u9664\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.project_expense_sheet                          = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d4c\u8cbb\u30b7\u30fc\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.project_no_closable                            = Project does not meet the requirements to close.<br />\r\n- Sum of followups EV in Cost Control must be equal to BAC.<br />\r\n- DSO unbilled must be 0.<br />\r\n- All KPIS must be evaluated.<br />
+ msg.error.projecttimesheet                               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.proposal_not_won                               = \u6295\u8cc7\u6848\u4ef6\u306b\u5229\u76ca\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.reassessment_log_delete                        = \u524a\u9664\u3059\u308b\u6539\u4fee\u30ed\u30b0\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.redmine.project_already_exists                 = \u5f53\u8a72\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304cRedmine\u306b\u65e2\u306b\u5b58\u5728\u3057\u307e\u3059\u3002
+ msg.error.resource_already_assigned                      = \u5f53\u8a72\u30ea\u30bd\u30fc\u30b9\u306f\u65e2\u306b\u3053\u306e\u30bf\u30b9\u30af\u306b\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.risk_delete                                    = \u524a\u9664\u3059\u308b\u30ea\u30b9\u30af\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.risk_reassessment_save                         = \u6539\u4fee\u3092\u8ffd\u52a0\u3059\u308b\u524d\u3001\u30ea\u30b9\u30af\u3092\u4fdd\u5b58\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.rm_email                                       = \u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u304c\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.save_calendar                                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u4fdd\u5b58\u6e08\u307f\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.scope                                          = \u7bc4\u56f2\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.select_base_calendar                           = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9\u3092\u9078\u3089\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.select_project_program                         = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.select_some_expensesheet                       = \u7d4c\u8cbb\u30b7\u30fc\u30c8\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.select_some_timesheet                          = \u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.error.session_expired                                = \u30bb\u30c3\u30b7\u30e7\u30f3\u306e\u6709\u52b9\u671f\u9593\u304c\u5207\u308c\u3066\u307e\u3059\u3002
+ msg.error.skill                                          = \u30b9\u30ad\u30eb\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093
+ msg.error.sponsor_email                                  = \u30b9\u30dd\u30f3\u30b5\u30fc\u306f\u30e1\u30fc\u30eb\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.stakeholder                                    = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.start_before_finish                            = \u7d42\u4e86\u5b9f\u7e3e\u65e5\u304c\u958b\u59cb\u5b9f\u7e3e\u65e5\u3088\u308a\u524d\u3067\u3059\u3002
+ msg.error.sum_costs_bac                                  = \u53ce\u5165\u306e\u5408\u8a08\u306fBAC\u3068\u7b49\u3057\u304f\u306a\u3044\u3002
+ msg.error.tcv_empty                                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7dcf\u984d\u304c\u7a7a\u767d\u306b\u306a\u3063\u3066\u3044\u307e\u3059\u3002
+ msg.error.teammember                                     = \u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.this_is_a_in_a                                 = <b>{0}</b>\u306f\u3001<b>{2}</b>\u306e\u4e2d\u306e<b>{1}</b>\u306b\u3064\u304b\u308f\u308c\u3066\u3044\u307e\u3059\u3002\u524a\u9664\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.timesheet_is_approved                          = \u627f\u8a8d\u6e08\u307f\u306e\u4f5c\u696d\u6642\u9593\u3067\u3059\u3002\u5909\u66f4\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.unexpected                                     = \u30a8\u30e9\u30fc:\u518d\u8a66\u884c\u307e\u305f\u306f\u30b5\u30dd\u30fc\u30c8\u30c1\u30fc\u30e0\u306b\u554f\u3044\u5408\u308f\u305b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.unxepected_error                               = \u30a8\u30e9\u30fc
+ msg.error.user-name-in-use                               = \u5f53\u8a72\u30e6\u30fc\u30b6\u30fc\u540d\u306f\u65e2\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+ msg.error.user_sending_charter                           = \u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u9001\u4fe1\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.username                                       = \u5f53\u8a72\u30e6\u30fc\u30b6\u30fc\u540d\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.error.valid_date                                     = \u671f\u65e5 (\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd)
+ msg.error.valid_date_achieved                            = \u6709\u52b9\u306a\u671f\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_date_cost                                = Valid cost date (Format yyyy/mm/dd).
+ msg.error.valid_date_end                                 = \u6709\u52b9\u306a\u7d42\u4e86\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_date_init                                = \u6709\u52b9\u306a\u958b\u59cb\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_date_logged                              = \u6709\u52b9\u306a\u30ed\u30b0\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_date_target                              = \u6709\u52b9\u306a\u76ee\u6a19\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_execution_date                           = \u6709\u52b9\u306a\u5b9f\u884c\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_iwo_date                                 = \u6709\u52b9\u306a\u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002(\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 yyyy/mm/dd).
+ msg.error.valid_number_ac                                = \u6b63\u3057\u3044AC\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_cost                              = \u6b63\u3057\u3044\u8a08\u753b\u539f\u4fa1\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_ev                                = \u6b63\u3057\u3044EV\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_iwo                               = \u6b63\u3057\u3044\u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u4e88\u5099\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_lower_threshold                   = \u6b63\u3057\u3044\u4f4e\u95be\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_planed_date                       = \u6b63\u3057\u3044\u4e88\u5b9a\u65e5\u4ed8\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_pv                                = \u6b63\u3057\u3044PV\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_upper_threshold                   = \u6b63\u3057\u3044\u9ad8\u95be\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_value                             = \u6b63\u3057\u3044\u6570\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_number_weight                            = \u6b63\u3057\u3044\u30a6\u30a7\u30a4\u30c8\u5024\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_percentage                               = \u6b63\u3057\u3044\u30d1\u30fc\u30bb\u30f3\u30c6\u30fc\u30b8\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_planned_date                             = \u6b63\u3057\u3044\u4e88\u5b9a\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.valid_planned_format                           = \u6b63\u3057\u3044\u7d42\u4e86\u4e88\u5b9a\u65e5\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.error.wbsnode_ca                                     = \u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u524a\u9664\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.wbsnode_child_ca                               = \u5b50CA\u304c\u3042\u308a\u307e\u3059\u306e\u3067\u3001{0} \u306fCA\u306b\u8a2d\u5b9a\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.wbsnode_resum                                  = \u5b50\u30ce\u30fc\u30c9\u304c\u3042\u308bWBS\u30ce\u30fc\u30c9\u306f\u524a\u9664\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.without_permission                             = \u30a2\u30d7\u30ea\u4f7f\u7528\u306e\u90e8\u9580\u6a29\u9650\u304c\u3042\u308a\u307e\u305b\u3093\u3002\u7ba1\u7406\u8005\u306b\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002
+ msg.error_login.message                                  = \u540d\u524d\u3068\u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002
+ msg.error_login.title                                    = \u30ed\u30b0\u30a4\u30f3\u30a8\u30e9\u30fc
+ msg.error_title                                          = \u63d0\u51fa\u30d5\u30a9\u30fc\u30e0\u304c\u9593\u9055\u3063\u3066\u3044\u307e\u3059\u3002\u4e0b\u8a18\u8a73\u7d30\u60c5\u5831\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002
+ msg.imputations_pending                                  = Have imputations pending for approval go to:
+msg.info                                                 = \u60c5\u5831
+ msg.info.accounting_code_in_use                          = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b3\u30fc\u30c9{0}\u306f\u65e2\u306b\u4f7f\u7528\u4e2d\u3067\u3059\u3002
+ msg.info.already_ca                                      = CA\uff08\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\uff09\u306e\u89aa\u306fCA\u3068\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.info.bac_equals_budget                               = \u4e88\u7b97\u306e\u5408\u8a08\u5024\u3068BAC\u304c\u5408\u3044\u307e\u305b\u3093\u3002
+ msg.info.change                                          = \u5909\u66f4
+ msg.info.change_password                                 = \u30d1\u30b9\u30ef\u30fc\u30c9\u5909\u66f4\u3057\u307e\u3057\u305f\u3002
+ msg.info.change_something                                = \u4f55\u304b\u3092\u5909\u66f4\u3059\u308b\u3002
+ msg.info.check_activity_dates                            = \u30bf\u30b9\u30af\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u304c\u5909\u66f4\u3055\u308c\u307e\u3057\u305f\u3002\u65e5\u4ed8\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.info.check_followups_dates                           = \u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u65e5\u4ed8(\uff30\uff36)\u304c\u5909\u66f4\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.info.check_members_assigned                          = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306b\u30ea\u30bd\u30fc\u30b9\u304c\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u307e\u3057\u305f\u3002\u65e5\u4ed8\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.info.check_milestones_dates                          = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u304c\u5909\u66f4\u3057\u307e\u3057\u305f\u3002\u65e5\u4ed8\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.info.choose_profile                                  = \u30ed\u30fc\u30eb\u9078\u629e
+ msg.info.click_here                                      = \u5f37\u5236\u5909\u66f4
+ msg.info.created                                         = {0}\u3092\u4f5c\u6210\u3057\u307e\u3057\u305f\u3002
+ msg.info.deleted                                         = {0} \u3092\u524a\u9664\u3057\u307e\u3057\u305f\u3002
+ msg.info.ev_not_equals                                   = EV\u3068 (\u4e88\u7b97 * \u9032\u6357\u7387)\u304c\u7b49\u3057\u304f\u306a\u3044\u3002
+ msg.info.execdate_before_project_initdate                = \u8a08\u753b\u958b\u59cb\u65e5\u304c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u958b\u59cb\u65e5\u3088\u308a\u524d\u3067\u3059\u3002
+ msg.info.filter_column_selected                          = \u9078\u629e\u3055\u308c\u305f\u884c\u306e\u307f\u8868\u793a
+ msg.info.gantt_first_projects                            = \u30ac\u30f3\u30c8\u30c1\u30e3\u30fc\u30c8\u306b\u6700\u521d\u306e {0} \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u307f\u3092\u8868\u793a\u3059\u308b\u3002
+ msg.info.in_use                                          = {0} {1}\u306f\u4f7f\u7528\u4e2d\u3067\u3059\u3002
+ msg.info.mail_account                                    = \u30e1\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u6b63\u3057\u304f\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.info.mincharacters                                   = {0} \u306e\u6700\u5c0f\u5165\u529b\u6587\u5b57\u6570\u306f{1} \u3067\u3059\u3002
+ msg.info.must_be_digit                                   = {0} \u306f\u6570\u5b57\u306e\u307f\u3067\u3059\u3002
+ msg.info.not_ca                                          = {0} {1}\u307e\u305f\u306f\u89aa\u304cCA(\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8)\u306e\u306f\u305a\u3067\u3059\u3002
+ msg.info.one-profile                                     = \u30ed\u30fc\u30eb\u306f\u4e00\u3064\u3057\u304b\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.info.operation_exists                                = \u3053\u306e\u4f5c\u696d\u306f\u65e2\u306b\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u306b\u3042\u308a\u307e\u3059\u3002
+ msg.info.order_updated                                   = {0} \u306e\u9806\u756a\u304c\u66f4\u65b0\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.info.preassign                                       = {0}\u304c\u30d7\u30ea\u30a2\u30b5\u30a4\u30f3\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.info.project_charter_not_found                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u627f\u8a8d\u524d\u306b\u3001\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u3092\u9001\u4fe1\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ msg.info.project_charter_send                            = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u304c\u9001\u4fe1\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.info.project_has\ no_calendar                         = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ab\u30ec\u30f3\u30c0\u30fc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002
+ msg.info.resource_capacity_group                         = \u30e1\u30f3\u30d0\u30fc\u8ca0\u8377\u6295\u5165\u72b6\u6cc1\u306e\u8868\u793a\u57fa\u6e96
+ msg.info.saved_upper_and_lower_threshold                 = \u76ee\u6a19\u3068\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u66f4\u65b0\u3057\u307e\u3057\u305f\u3002
+ msg.info.selcet_row                                      = \u30c6\u30fc\u30d6\u30eb\u306e\u4e00\u884c\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+ msg.info.sponsor_hasnt_mail                              = is the Sponsor of the project and hasn't email to send you the Charter Doc.
+ msg.info.status                                          = <b>{0}</b> \u306e\u30b9\u30c6\u30fc\u30bf\u30b9\u306f <b>{1}</b>\u306b\u306a\u308a\u307e\u3057\u305f\u3002
+ msg.info.switch                                          = \u30b9\u30a4\u30c3\u30c1
+ msg.info.updated                                         = {0} \u304c\u66f4\u65b0\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.info.wbsnode_ca                                      = \u5b50CA\u304c\u3042\u308a\u307e\u3059\u306e\u3067\u3001{0} \u306fCA\u306b\u8a2d\u5b9a\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.info.wbsnode_principal                               = \u30e1\u30a4\u30f3WBS\u30ce\u30fc\u30c9\u3092\u5909\u66f4\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.no_export_to_csv                                     = CSV\u306b\u30a4\u30f3\u30dd\u30fc\u30c8\u3059\u308b {0} \u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.not_pending_imputations                              = You don\u2019t have pending imputations
+ msg.not_pending_imputations_approval                     = You don\u2019t have imputations pending for approval
+ msg.please_wait                                          = \u304a\u5f85\u3061\u304f\u3060\u3055\u3044\u3002
+ msg.processing                                           = \u5b9f\u884c\u4e2d
+ msg.project_closed_info                                  = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304c\u7d42\u4e86\u3057\u3066\u3044\u307e\u3059\u3002\u5909\u66f4\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.rows_found                                           = {0} \u767b\u9332\u304c\u898b\u3064\u304b\u308a\u307e\u3057\u305f\u3002
+ msg.save_proposal_result_confirm                         = \u6295\u8cc7\u60c5\u5831\u304c\u4fdd\u5b58\u3055\u308c\u305f\u5f8c\u3001\u4fee\u6b63\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002\u5b9f\u884c\u3057\u307e\u3059\u304b\uff1f
+ msg.saved                                                = \u4fdd\u5b58\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.saved.calendar_base                                  = \u30ab\u30ec\u30f3\u30c0\u30fc\u30d9\u30fc\u30b9\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.saved.project                                        = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.saved.project_calendar                               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ab\u30ec\u30f3\u30c0\u30fc\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.saved.proposal                                       = \u6295\u8cc7\u60c5\u5831\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.title_confirm_delete                                 = {0}\u306e\u524a\u9664\u78ba\u8a8d
+ msg.title_confirm_release                                = {0}\u306e\u30ea\u30ea\u30fc\u30b9\u78ba\u8a8d
+ msg.warning_import_msp                                   = \u8b66\u544a\uff1aMicrosoft Project\u3092\u30a4\u30f3\u30dd\u30fc\u30c8\u3059\u308b\u524d\u306b\u3001\u30bf\u30b9\u30af\u3068\u30d1\u30c3\u30b1\u30fc\u30b8\u304c\u524a\u9664\u3055\u308c\u307e\u3059\u3002\u5b9f\u884c\u3057\u307e\u3059\u304b\uff1f
+ msg.warning_update_msp                                   = \u8b66\u544a\uff1a\u30bf\u30b9\u30af\u3068\u30d1\u30c3\u30b1\u30fc\u30b8\u304c\u66f4\u65b0\u3055\u308c\u307e\u3059\u3002\u5b9f\u884c\u3057\u307e\u3059\u304b\uff1f
+ msg.max_excutive_report                                  = \u51fa\u529b\u4ef6\u6570\u304c\u4e0a\u9650\u5024100\u4ef6\u3092\u8d85\u3048\u307e\u3057\u305f\u3002\u691c\u7d22\u6761\u4ef6\u3092\u7d5e\u3063\u3066\u4e0b\u3055\u3044\u3002
+ msg.error.executive_report = \u5b9f\u884c\u30a8\u30e9\u30fc
+
+ msg_to_csv = CSV\u51fa\u529b
+
+ msg_to_excel = Excel\u51fa\u529b
+
+
+
+ msproject.import  = <b>MS\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u60c5\u5831 </b> \u304c<b>\u30a4\u30f3\u30d7\u30c3\u30c8</b>\u3055\u308c\u307e\u3057\u305f\u3002
+ msproject.updated = <b>\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u60c5\u5831 </b> \u304c<b>\u66f4\u65b0</b>\u3055\u308c\u307e\u3057\u305f\u3002
+
+ my_account = \u30de\u30a4\u30a2\u30ab\u30a6\u30f3\u30c8
+
+ new = \u65b0\u898f\u4f5c\u6210
+
+ new.expense             = \u7d4c\u8cbb\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_company = \u4e8b\u696d\u30b0\u30eb\u30fc\u30d7\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_contact = \u30b3\u30f3\u30bf\u30af\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_cost = \u539f\u4fa1\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_customer = \u9867\u5ba2\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_income = \u53ce\u5165\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_items = \u30a2\u30a4\u30c6\u30e0\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_iwo = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_operation_timesheet = \u4f5c\u696d\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_perforg = \u672c\u90e8\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_program_followup = \u30d7\u30ed\u30b0\u30e9\u30e0\u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_project_code = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b3\u30fc\u30c9\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_projectmanager = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_proposal = \u6295\u8cc7\u306e\u65b0\u898f\u4f5c\u6210
+
+ new_wbsnode = WBS\u30ce\u30fc\u30c9\u306e\u65b0\u898f\u4f5c\u6210
+
+ ni = \u7d14\u5229\u76ca
+
+ ni_desc = \u7d14\u5229\u76ca
+
+ ni_desc_complete = NI\uff08\u7d14\u5229\u76ca\uff09
+
+ no = \u3044\u3044\u3048
+
+ not_defined = \u672a\u5b9a\u7fa9
+
+ operation = \u4f5c\u696d
+
+ order = \u9806
+
+ order.asc  = \u6607\u9806
+ order.desc = \u964d\u9806
+
+ other = \u305d\u306e\u4ed6
+
+ other_information = \u4ed6\u306e\u60c5\u5831
+
+ page = \u30da\u30fc\u30b8
+
+ pass = \u30d1\u30b9\u30ef\u30fc\u30c9
+
+ pass.actual         = \u30d1\u30b9\u30ef\u30fc\u30c9
+ pass.confirm        = \u65b0\u3057\u3044\u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u78ba\u8a8d
+ pass.confirm.please = \u65b0\u3057\u3044\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ pass.new            = \u65b0\u3057\u3044\u30d1\u30b9\u30ef\u30fc\u30c9
+ pass.required       = \u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+
+ pdf.pagination                = Page {0} of {1}
+ pdf.staffing.efforts_for      = \u306e\u5de5\u6570
+ pdf.staffing.fte              = FTE %
+ pdf.staffing.person_hours     = \u4eba\u6642
+ pdf.staffing.person_months    = \u4eba\u6708
+ pdf.staffing.resource_efforts = \u30ea\u30bd\u30fc\u30b9\u5de5\u6570
+ pdf.staffing.total_effort     = \u7dcf\u5de5\u6570
+ pdf.staffing_project          = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8_\u4eba\u54e1\u8abf\u6574
+
+ people = \u4eba
+
+ percent_complete = \u9032\u6357\u7387\uff08%\uff09
+
+ perf_organization = \u672c\u90e8
+
+ perf_organization.all = \u5168\u3066
+
+ perforg = \u672c\u90e8
+
+perforg.name = \u540d\u79f0
+
+ pl_chart = P&L\u30c1\u30e3\u30fc\u30c8
+
+ pl_chart.warning_pl_data = \u8b66\u544a\uff1a\u672c\u30c1\u30e3\u30fc\u30c8\u306b\u8a08\u7b97\u3055\u308c\u305f\u7d14\u5229\u76ca\u306f\u300c\u958b\u59cb-\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30c7\u30fc\u30bf\u300d\u3067\u5b9a\u7fa9\u3057\u305f\u7d14\u5229\u76ca\u3068\u9055\u3044\u307e\u3059\u3002
+
+ plan = \u8a08\u753b
+
+ plan-costs = \u8a08\u753b\u30b3\u30b9\u30c8
+
+ plan_hr = \u30ea\u30bd\u30fc\u30b9\u8a08\u753b
+
+ planned_close_date = \u7d42\u4e86&nbsp;\u4e88\u5b9a\u65e5
+
+ planned_init_date = \u958b\u59cb&nbsp;\u4e88\u5b9a\u65e5
+
+ planned_value = PV
+
+ planned_value.chart     = PV\u30c1\u30e3\u30fc\u30c8
+ planned_value.days_date = \u6b8b\u308a\u306e\u65e5\u6570
+ planned_value.value     = \u984d
+
+ please = \u304a\u5f85\u3061\u304f\u3060\u3055\u3044\u3002
+
+ previous_page = \u524d\u306e\u30da\u30fc\u30b8
+
+ priority.high   = \u9ad8\u3044
+ priority.low    = \u4f4e\u3044
+ priority.medium = \u4e2d
+
+ proceed.close_project = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u7d42\u4e86\u3059\u308b
+
+ processing = \u9032\u884c\u4e2d
+
+ procurement = \u767a\u6ce8
+
+ procurement.activity_name                         = \u30bf\u30b9\u30af\u540d
+ procurement.payment_schedule                      = \u652f\u6255\u3044\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb
+ procurement.payment_schedule.actual_date          = \u5b9f\u65e5\u4ed8
+ procurement.payment_schedule.actual_payment       = \u5b9f\u652f\u6255\u984d
+ procurement.payment_schedule.n_payment            = \u652f\u6255\u984d
+ procurement.payment_schedule.number_payment       = \u652f\u6255\u3044\u756a\u53f7
+ procurement.payment_schedule.payment_info         = \u652f\u6255\u3044\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u60c5\u5831
+ procurement.payment_schedule.planned_date         = \u4e88\u5b9a\u65e5
+ procurement.payment_schedule.planned_payment      = \u4e88\u5b9a\u652f\u6255\u984d
+ procurement.payment_schedule.procurement_budget   = \u767a\u6ce8\u4e88\u7b97
+ procurement.payment_schedule.procurement_payments = \u767a\u6ce8\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb
+ procurement.payment_schedule.purchase_order       = \u767a\u6ce8\u66f8
+ procurement.seller_name                           = \u767a\u6ce8\u5148
+ procurement.seller_performance                    = \u767a\u6ce8\u5148\u5b9f\u7e3e
+ procurement.seller_performance.seller_info        = \u767a\u6ce8\u5148\u5b9f\u7e3e\u60c5\u5831
+ procurement.sow_selection                         = SOW\uff06\u30bb\u30ec\u30af\u30b7\u30e7\u30f3
+ procurement.sow_selection.procurement_docs        = \u767a\u6ce8\u8cc7\u6599
+ procurement.sow_selection.sow                     = SOW
+ procurement.work_schedule                         = \u4f5c\u696d\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb
+ procurement.work_schedule.baseline_finish         = \u7d42\u4e86\u4e88\u5b9a\u65e5
+ procurement.work_schedule.baseline_start          = \u958b\u59cb\u4e88\u5b9a\u65e5
+ procurement.work_schedule.finish                  = \u7d42\u4e86\u65e5
+ procurement.work_schedule.start                   = \u958b\u59cb\u65e5
+ procurement.work_schedule.work_info               = \u4f5c\u696d\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u60c5\u5831
+
+ profile = \u30ed\u30fc\u30eb
+
+ program = \u30d7\u30ed\u30b0\u30e9\u30e0
+
+ program.actual_cost        = \u5b9f\u7e3e\u984d
+ program.budget             = \u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u7b97
+ program.budget_bottom_up   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u4e88\u7b97\u5408\u8a08\u984d
+ program.budget_year        = \u4f1a\u8a08\u5e74\u5ea6
+ program.code               = \u30d7\u30ed\u30b0\u30e9\u30e0\u30b3\u30fc\u30c9
+ program.description        = \u30d7\u30ed\u30b0\u30e9\u30e0\u8aac\u660e
+ program.doc                = \u30d7\u30ed\u30b0\u30e9\u30e0\u8cc7\u6599
+ program.goals              = \u30d7\u30ed\u30b0\u30e9\u30e0\u3082\u533a\u3072\u3085
+ program.income_forecast    = \u53ce\u5165\u4e88\u6e2c
+ program.list               = \u30d7\u30ed\u30b0\u30e9\u30e0\u30ea\u30b9\u30c8
+ program.manager            = \u30d7\u30ed\u30b0\u30e9\u30e0\u30de\u30cd\u30fc\u30b8\u30e3
+program.name               = \u30d7\u30ed\u30b0\u30e9\u30e0\u540d
+ program.resource_histogram = \u30d7\u30ed\u30b0\u30e9\u30e0\u30ea\u30bd\u30fc\u30b9\u8ca0\u8377\u5c71\u7a4d\u8868
+ program.title              = \u30d7\u30ed\u30b0\u30e9\u30e0\u30bf\u30a4\u30c8\u30eb
+
+ program_value_chart = Program Value Chart
+
+ project = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+
+ project.accounting_code               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b3\u30fc\u30c9
+ project.bac                           = BAC
+ project.budget_year                   = \u4f1a\u8a08\u5e74\u5ea6
+ project.calendar                      = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ab\u30ec\u30f3\u30c0\u30fc
+ project.chart                         = \u30c1\u30e3\u30fc\u30c8
+ project.chart_label                   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7565\u79f0
+ project.create                        = \u4f5c\u6210
+ project.date.closing                  = \u30af\u30ed\u30fc\u30ba\u65e5
+ project.date.execution                = \u5b9f\u7e3e\u958b\u59cb\u65e5
+ project.date.initiation               = \u5165\u529b\u65e5
+ project.date.planning                 = \u8a08\u753b\u958b\u59cb\u65e5
+ project.end_month                     = \u7d42\u4e86\u6708
+ project.execution                     = \u5b9f\u884c\u4e2d
+ project.external_cost                 = \u5916\u90e8\u30b3\u30b9\u30c8
+ project.initial_month                 = \u958b\u59cb\u6708
+ project.internal                      = \u8a08\u753b\u5916\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u542b\u307f
+ project.internal_cost                 = \u793e\u5185\u30b3\u30b9\u30c8
+ project.internal_project              = \u60f3\u5b9a\u5916\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ project.net_value                     = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7d14\u5229\u76ca
+ project.priority                      = \u512a\u5148\u5ea6
+ project.program                       = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30b0\u30e9\u30e0
+ project.resource_histogram            = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ea\u30bd\u30fc\u30b9\u8ca0\u8377\u5c71\u7a4d\u8868
+ project.start_planning                = \u8a08\u753b\u958b\u59cb
+ project.status_date                   = \u30b9\u30c6\u30fc\u30bf\u30b9\u65e5\u4ed8
+ project.status_date.is_empty          = {0} \u304c\u7a7a\u304b\u3001\u30d5\u30a9\u30fc\u30de\u30c3\u30c8\u304c\u4e0d\u6b63\u3067\u3059({1})\u3002  {0}\u306f {2}\u3067\u3059\u3002
+
+ project_charter = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb
+
+ project_charter.business_need       = \u9867\u5ba2\u8981\u671b
+ project_charter.core_team_members   = \u30b3\u30a2\u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc
+ project_charter.main_assumptions    = \u4e3b\u306a\u524d\u63d0\u6761\u4ef6
+ project_charter.main_constraints    = \u4e3b\u306a\u5236\u7d04
+ project_charter.main_risks          = \u4e3b\u306a\u30ea\u30b9\u30af
+ project_charter.milestones          = \u30de\u30a4\u30eb\u30b9\u30c8\u30fc\u30f3
+ project_charter.other_key_res_req   = \u4ed6\u306e\u30ad\u30fc\u30ea\u30bd\u30fc\u30b9\u8981\u8acb
+ project_charter.project_charter_doc = \u95a2\u9023\u8cc7\u6599
+ project_charter.project_description = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u8aac\u660e
+ project_charter.project_objectives  = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u76ee\u6a19
+ project_charter.success_criteria    = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u8aac\u660e
+
+ project_code = \u5185\u90e8\u30b3\u30fc\u30c9
+
+ project_customer = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u9867\u5ba2
+
+ project_desc = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u8aac\u660e
+
+ project_directory = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30c7\u30a3\u30ec\u30af\u30c8\u30ea\u30fc
+
+ project_manager = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3
+
+ project_name = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u540d
+
+ project_performing_organization = \u672c\u90e8
+
+ project_pl = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8P&L
+
+ project_pl.direct_costs = \u76f4\u63a5\u539f\u4fa1
+ project_pl.direct_costs_control = EAC
+project_pl.dm           = \u30de\u30fc\u30b8\u30f3\u91d1\u984d
+ project_pl.expenses     = \u7d4c\u8cbb
+ project_pl.iwo          = \u4e88\u5b9a
+ project_pl.net_income   = \u7d14\u984d
+ project_pl.thousands    = \u5343\u5186
+
+ project_propopal_code = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u63d0\u6848\u30b3\u30fc\u30c9
+
+ project_staffing = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ea\u30bd\u30fc\u30b9\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+
+ project_staffing.automatic_time_sheet = \u81ea\u52d5\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+ project_staffing.for_approve          = \u627f\u8a8d\u7528\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ea\u30bd\u30fc\u30b9\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+ project_staffing.for_remove           = \u627f\u8a8d\u7528\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ea\u30bd\u30fc\u30b9\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+
+ project_status = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30c6\u30fc\u30bf\u30b9
+
+ project_status.C                = \u5b9f\u884c\u4e2d
+ project_status.F                = \u7d42\u4e86
+ project_status.I                = \u7740\u624b
+ project_status.P                = \u8a08\u753b
+ project_status.X                = \u7d42\u4e86
+ project_status.control          = \u5b9f\u7e3e
+ project_status.control_time     = \u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30bf\u30a4\u30e0
+ project_status.initiating       = \u958b\u59cb
+ project_status.planning         = \u8a08\u753b
+ project_status.planning_costs   = \u8a08\u753b\u539f\u4fa1
+ project_status.planning_staff   = \u8a08\u753b\u30b9\u30bf\u30c3\u30d5
+ project_status.procurement      = \u767a\u6ce8
+ project_status.resource_control = \u30ea\u30bd\u30fc\u30b9\u5b9f\u7e3e
+
+ projects = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+
+ projects.dependent = \u95a2\u9023\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ projects.lead      = \u5148\u884c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+
+ proposal.bac                 = BAC
+ proposal.bid_date            = \u6295\u8cc7\u671f\u65e5
+ proposal.bid_manager         = \u4f01\u753b\u7d71\u62ec\u30de\u30cd\u30fc\u30b8\u30e3
+ proposal.cancel              = \u4e2d\u6b62
+ proposal.canceled            = \u30ad\u30e3\u30f3\u30bb\u30eb
+ proposal.canceled_comments   = \u30ad\u30e3\u30f3\u30bb\u30eb\u30b3\u30e1\u30f3\u30c8
+ proposal.client_comments     = \u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u30b3\u30e1\u30f3\u30c8
+ proposal.create_new_project  = \u5f53\u8a72\u8cc7\u7523\u5143\u306b\u65b0\u3057\u3044\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u7acb\u3061\u4e0a\u3052\u308b\u3002
+ proposal.decision_date       = \u6c7a\u5b9a\u65e5
+ proposal.decision_date_input = \u6c7a\u5b9a\u65e5\u5165\u529b
+ proposal.duration_weeks      = \u9031\u6570
+ proposal.final_comments      = \u6700\u7d42\u30b3\u30e1\u30f3\u30c8
+ proposal.final_position      = \u6295\u8cc7\u6b8b\u9ad8
+ proposal.link                = \u6295\u8cc7\u30ea\u30f3\u30af
+ proposal.lost                = \u62d2\u5426
+proposal.ni                  = NI\uff08\u7d14\u5229\u76ca\uff09
+ proposal.num_competitors     = \u7af6\u4e89\u8005\u6570
+ proposal.pending             = \u5b9f\u884c\u4e2d
+ proposal.requires_travelling = \u51fa\u5f35\u3042\u308a
+ proposal.sales_manager       = \u30bb\u30fc\u30eb\u30b9\u30de\u30cd\u30fc\u30b8\u30e3
+ proposal.solution_manager    = \u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30de\u30cd\u30fc\u30b8\u30e3
+ proposal.start               = \u958b\u59cb\u65e5
+ proposal.status              = \u30b9\u30c6\u30fc\u30bf\u30b9
+ proposal.win                 = \u6295\u8cc7\u306e\u627f\u8a8d
+ proposal.win_probability     = \u5b9f\u73fe\u78ba\u7387
+ proposal.won                 = \u627f\u8a8d\u6e08\u307f
+
+ proposals = \u6295\u8cc7
+ ## 20141104 cbai add start #7,8
+ pm = PM\u3001
+ projectOrgScopeTitle = \u7bc4\u56f2
+ project_org_scope.Ka = \u8ab2
+ project_org_scope.Bu = \u90e8
+ project_org_scope.HonBu = \u672c\u90e8
+ project_org_scope.Group = \u5168\u4f53
+ project_org_scope.HonBuSelect = \u9078\u629e
+ project_org_scope.BuSelect = \u9078\u629e
+ project_org_scope.KaSelect = \u9078\u629e
+ ## 20141104 cbai add end #7,8
+ rag = RAG
+
+ reason = \u7406\u7531
+
+ reassessment_log = \u6539\u4fee\u30ed\u30b0
+
+ reassessment_log.change = \u6539\u4fee\u5909\u66f4
+ reassessment_log.date   = \u671f\u65e5
+
+ redmine.no_changes        = \u66f4\u65b0\u3059\u308b\u5909\u66f4\u304c\u3042\u308a\u307e\u305b\u3093\u3002
+ redmine.update_activities = \u6b21\u306e\u30bf\u30b9\u30af\u3092\u66f4\u65b0\u3057\u307e\u3059\u304b\uff1f
+
+ reject = \u62d2\u5426
+
+ reject.all                = \u5168\u3066\u62d2\u5426
+ reject.resource           = \u30ea\u30bd\u30fc\u30b9\u3092\u62d2\u5426\u3057\u307e\u3059\u304b\uff1f
+ reject.resource.turn_down = \u30ea\u30bd\u30fc\u30b9\u306f\u5dee\u3057\u623b\u3057\u3055\u308c\u3066\u3044\u307e\u3059\u3002
+
+ reject_reason = \u62d2\u5426\u306e\u7406\u7531
+
+ release = \u30ea\u30ea\u30fc\u30b9
+
+ remove = \u524a\u9664
+
+ request_change_list = \u5909\u66f4\u8981\u6c42\u30ea\u30b9\u30c8
+
+ reserves = \u4e88\u5b9a
+
+ resolve = \u89e3\u6c7a
+
+ resource = \u30ea\u30ea\u30fc\u30b9
+
+ resource.assigned      = \u30a2\u30b5\u30a4\u30f3
+ resource.data          = \u30ea\u30bd\u30fc\u30b9\u30c7\u30fc\u30bf
+ resource.is_released   = \u30ea\u30bd\u30fc\u30b9\u304c\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u307e\u3057\u305f\u3002
+ resource.preassign     = \u30d7\u30ea\u30a2\u30b5\u30a4\u30f3
+ resource.preassigned   = \u30d7\u30ea\u30a2\u30b5\u30a4\u30f3
+ resource.propose       = \u63d0\u6848
+ resource.proposed      = \u63d0\u6848
+resource.proposed.info = \u63d0\u6848\u30ea\u30bd\u30fc\u30b9
+ resource.proposed.new  = \u30ea\u30bd\u30fc\u30b9\u3092\u63d0\u6848\u3057\u307e\u3057\u305f\u3002
+ resource.release       = \u30ea\u30ea\u30fc\u30b9
+ resource.released      = \u30ea\u30ea\u30fc\u30b9
+ resource.turndown      = \u5dee\u3057\u623b\u3057
+ resource.turneddown    = \u5dee\u3057\u623b\u3057
+ resource.update        = \u66f4\u65b0
+
+ resource_manager = \u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3
+
+ resource_staffing = \u30ea\u30bd\u30fc\u30b9\u8abf\u6574
+
+ resources = \u30ea\u30bd\u30fc\u30b9
+
+ restore_calendar_exceptions = \u9664\u5916\u671f\u9593\u306e\u5fa9\u5143
+
+ result_proposal = \u6295\u8cc7\u7d50\u679c
+
+ risk = \u30ea\u30b9\u30af
+
+ risk.actual_cost          = \u5b9f\u8cbb
+ risk.actual_delay         = \u5b9f\u9045\u5ef6
+ risk.class                = \u30ea\u30b9\u30af\u533a\u5206
+ risk.code                 = \u30ea\u30b9\u30af\u30b3\u30fc\u30c9
+ risk.contingency_actions  = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u5bfe\u5fdc\u304c\u5fc5\u8981\u3067\u3059\u3002\uff08\u30ea\u30b9\u30af\u9855\u5728\u5316\u6642\uff09
+ risk.contingency_cost     = \u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u539f\u4fa1
+ risk.date_raised          = \u767b\u9332\u65e5
+ risk.description          = \u8aac\u660e
+ risk.due_date             = \u5c65\u884c\u671f\u65e5
+ risk.final_comments       = \u30ea\u30b9\u30af\u4f4e\u6e1b\u3068\u30b3\u30f3\u30c6\u30a3\u30f3\u30b8\u30a7\u30f3\u30b7\u30fc\u8a08\u753b\u306e\u52b9\u679c\u306b\u5bfe\u3059\u308b\u30b3\u30e1\u30f3\u30c8
+ risk.final_disposition    = \u6700\u7d42\u51e6\u5206\u72b6\u6cc1
+ risk.impact               = \u5f71\u97ff
+ risk.materialized         = \u30ea\u30b9\u30af\u9855\u5728\u5316\u3057\u307e\u3057\u305f\u304b\uff1f
+ risk.materialized_date    = \u30ea\u30b9\u30af\u9855\u5728\u5316\u3057\u305f\u65e5
+ risk.mitigation_actions   = \u30ea\u30b9\u30af\u9855\u5728\u5316\u3057\u305f\u65e5
+ risk.mitigation_cost      = \u30ea\u30b9\u30af\u4f4e\u6e1b\u30b3\u30b9\u30c8
+risk.name                 = \u540d\u79f0
+ risk.owner                = \u30aa\u30fc\u30ca\u30fc
+ risk.potential_cost       = \u4e88\u6e2c\u30b3\u30b9\u30c8
+ risk.potential_delay      = \u4e88\u6e2c\u9045\u5ef6
+ risk.probability          = \u53ef\u80fd\u6027
+ risk.probability.high     = \u9ad8
+ risk.probability.minor    = \u5c0f
+ risk.probability.moderate = \u4e2d
+ risk.probability.severe   = \u6df1\u523b
+ risk.probability.trivial  = \u3055\u3055\u3044
+ risk.rating               = \u30ea\u30b9\u30af\u30ec\u30d9\u30eb
+ risk.reassessment_log     = \u6539\u4fee\u30ed\u30b0
+ risk.residual_cost        = \u6b8b\u4f59\u539f\u4fa1
+ risk.residual_risk        = \u6b8b\u7559\u30ea\u30b9\u30af
+ risk.response             = \u30ea\u30b9\u30af\u5bfe\u5fdc
+ risk.response_description = \u5bfe\u5fdc\u8aac\u660e
+ risk.risk_discovery       = \u30ea\u30b9\u30af\u5206\u6790
+ risk.risk_trigger         = \u30ea\u30b9\u30af\u5224\u5b9a\u6307\u6a19
+ risk.status               = \u30b9\u30c6\u30fc\u30bf\u30b9
+ risk.status.closed        = \u7d42\u4e86
+ risk.status.open          = \u30aa\u30fc\u30d7\u30f3
+ risk.status.progress      = \u5b9f\u884c\u4e2d
+ risk.type                 = \u30ea\u30b9\u30af\u7a2e\u985e
+ risk.type.opportunity     = \u30c1\u30e3\u30f3\u30b9
+ risk.type.threat          = \u8105\u5a01
+
+ risk_control = \u30ea\u30b9\u30af\u5b9f\u7e3e
+
+ risk_management = \u30ea\u30b9\u30af\u7ba1\u7406
+
+ risk_planning = \u30ea\u30b9\u30af\u5bfe\u5fdc
+
+ risk_register = \u30ea\u30b9\u30af\u767b\u9332
+
+ sac = \u671f\u9593
+
+ sac_desc = SAC
+
+ sac_desc_complete = SAC
+
+ sales_forecast = \u6295\u8cc7\u4e88\u671f
+
+ save = \u4fdd\u5b58
+
+ save.all = \u5168\u3066\u4fdd\u5b58
+
+ schedule = \u30b9\u30b1\u30b8\u30e5\u30fc\u30eb
+
+ schedule_chart = \u30ac\u30f3\u30c8\u30c1\u30e3\u30fc\u30c8
+
+ schedule_chart.last_status_report = \u6700\u7d42\u30b9\u30c6\u30fc\u30bf\u30b9\u30ec\u30dd\u30fc\u30c8
+
+ schedule_control = \u5b9f\u7e3e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb
+
+ schedule_high_level_description = \u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u6982\u8981
+
+ scope = \u8a08\u753b\u30b9\u30b3\u30fc\u30d7
+
+ scope_control = \u5b9f\u7e3e\u30b9\u30b3\u30fc\u30d7
+
+ scope_statement = \u8aac\u660e
+
+ search = \u691c\u7d22
+
+ search_contact = \u30b3\u30f3\u30bf\u30af\u30c8\u691c\u7d22
+
+ search_employee = \u793e\u54e1\u691c\u7d22
+
+ sel_opt = \u9078\u629e
+
+ select_file = \u30d5\u30a1\u30a4\u30eb\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+
+ select_msproject = MS\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d5\u30a1\u30a4\u30eb\u3092\u9078\u3093\u3067\u304f\u3060\u3055\u3044\u3002
+
+ select_opt = -- \u9078\u629e --
+
+ seller = \u767a\u6ce8\u5148
+
+ sellercost = \u6848\u4ef6\u898f\u6a21
+
+ sellerscosts = \u6848\u4ef6\u898f\u6a21
+
+ sellerscosts.cost = \u30b3\u30b9\u30c8
+sellerscosts.name = \u59d4\u8a17\u5148\u540d\u79f0
+
+ send = \u767a\u4fe1
+
+ send_pdf = PDF\u3092\u767a\u4fe1\u3059\u308b
+
+ send_proposal = Send Investment
+
+ session_will_expire_in = \u3053\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u304c\u7d42\u4e86\u3057\u307e\u3059\u3002
+
+ setting = \u8a2d\u5b9a
+
+ setting.last_level_for_approve_sheet = \u30bf\u30a4\u30e0\u30b7\u30fc\u30c8\u3068\u7d4c\u8cbb\u30b7\u30fc\u30c8\u627f\u8a8d\u306e\u671f\u9650
+setting.name                         = \u540d\u79f0
+ setting.status_report_order          = \u30b9\u30c6\u30fc\u30bf\u30b9\u30ec\u30dd\u30fc\u30c8\u306e\u30c7\u30d5\u30a9\u30eb\u30c8\u9806
+ setting.tips                         = \u30c1\u30c3\u30d7
+ setting.value                        = \u5024
+
+ settings = \u8a2d\u5b9a
+
+ settings.list = \u30ea\u30b9\u30c8\u8a2d\u5b9a
+
+ show = \u8868\u793a
+
+ sign_in = \u767b\u9332
+
+ skill = \u30b9\u30ad\u30eb
+
+ sponsor = \u30b9\u30dd\u30f3\u30b5\u30fc
+
+ staff = \u30b9\u30bf\u30c3\u30d5
+
+ staff.datail_rejection   = \u62d2\u5426\u306e\u8a73\u7d30
+ staff.motives_for_delete = \u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc\u524a\u9664\u306e\u7406\u7531
+ staff.pre_assign         = \u30d7\u30ea\u30a2\u30b5\u30a4\u30f3
+ staff.refresh            = \u8868\u793a
+ staff.staffing           = \u4eba\u54e1\u8abf\u6574
+
+ stakeholder = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc
+
+ stakeholder.business_need       = \u696d\u52d9\u8981\u671b
+ stakeholder.classification      = \u533a\u5206
+ stakeholder.department          = \u90e8\u7f72
+ stakeholder.expectations        = \u671f\u5f85
+ stakeholder.external            = \u5916\u90e8
+ stakeholder.influence           = \u5f71\u97ff\u529b
+ stakeholder.internal            = \u5185\u90e8
+ stakeholder.management_strategy = \u7ba1\u7406\u6226\u7565
+stakeholder.name                = \u540d\u79f0
+ stakeholder.name_contact        = \u30cd\u30fc\u30e0\u30b3\u30f3\u30bf\u30af\u30c8
+ stakeholder.neutral             = \u4e2d\u7acb
+ stakeholder.opponent            = \u53cd\u5bfe
+ stakeholder.rol                 = \u5f79\u5272
+ stakeholder.supporter           = \u8cdb\u6210
+ stakeholder.type                = \u7a2e\u985e
+
+ stakeholder_comments = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc\u306e\u30b3\u30e1\u30f3\u30c8
+
+ stakeholders = \u30b9\u30c6\u30fc\u30af\u30db\u30eb\u30c0\u30fc
+
+ start = \u958b\u59cb\u65e5
+
+ state = \u30b9\u30c6\u30fc\u30bf\u30b9
+
+ state.next     = \u6b21\u3078
+ state.previous = \u524d\u3078
+
+ status = \u30b9\u30c6\u30fc\u30bf\u30b9
+
+ status_report = \u30b9\u30c6\u30fc\u30bf\u30b9\u30ec\u30dd\u30fc\u30c8
+
+ status_report.refresh = \u30b9\u30c6\u30fc\u30bf\u30b9\u30ec\u30dd\u30fc\u30c8\u306e\u66f4\u65b0
+
+ strategic_value = \u512a\u5148\u5ea6
+
+ strategic_value.high   = \u9ad8\u3044
+ strategic_value.low    = \u4f4e\u3044
+ strategic_value.medium = \u4e2d
+
+ table.poc              = \u9032\u6357\u7387\uff08%\uff09
+ table.priority         = \u512a\u5148\u5ea6\uff08%\uff09
+ table.probability      = \u53ef\u80fd\u6027\uff08%\uff09
+
+ tabledata.deselect_all = \u5168\u3066\u672a\u9078\u629e\u306b\u3059\u308b
+
+ tcv = \u7dcf\u984d
+
+ tcv_desc = \u6210\u7d04\u91d1\u984d
+
+ tcv_desc_complete = TCV (\u6210\u7d04\u91d1\u984d)
+
+ team.calendar                      = \u30c1\u30fc\u30e0\u30ab\u30ec\u30f3\u30c0\u30fc
+ team.calendar.refresh              = \u30c1\u30fc\u30e0\u30ab\u30ec\u30f3\u30c0\u30fc\u306e\u66f4\u65b0
+
+ team_member = \u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc
+
+ team_member.assigned               = \u30a2\u30b5\u30a4\u30f3
+ team_member.date_in                = \u53c2\u52a0\u65e5
+ team_member.date_out               = \u7d42\u4e86\u65e5
+ team_member.fte                    = \u8ca0\u8377
+ team_member.msg_request_for_remove = \u30e1\u30f3\u30d0\u30fc\u524a\u9664\u306e\u8acb\u6c42\u3092\u30ea\u30bd\u30fc\u30b9\u30de\u30cd\u30fc\u30b8\u30e3\u306b\u9001\u4fe1\u3057\u307e\u3057\u305f\u3002
+ team_member.performance            = \u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u30b3\u30e1\u30f3\u30c8
+ team_member.performance_doc        = \u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u95a2\u9023\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8
+ team_member.preassigned            = \u30d7\u30ea\u30a2\u30b5\u30a4\u30f3
+ team_member.proposed               = \u63d0\u6848
+ team_member.rejected               = \u62d2\u5426
+ team_member.removal_denied         = Petition for removal denied
+ team_member.request_for_remove     = \u53d6\u6d88\u3057\u8981\u6c42
+ team_member.sell_rate              = \u7d0d\u5165\u5358\u4fa1
+ team_member.turneddown             = \u5dee\u3057\u623b\u3057
+
+ team_members = \u30c1\u30fc\u30e0\u30e1\u30f3\u30d0\u30fc
+
+ timesheet = \u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+
+ timesheet.activity              = \u30bf\u30b9\u30af\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+ timesheet.approve_time_tracking = \u6642\u9593\u7ba1\u7406\u306e\u627f\u8a8d
+ timesheet.operation             = \u4f5c\u696d\u30bf\u30a4\u30e0\u30b7\u30fc\u30c8
+ timesheet.team_member_list      = \u30e1\u30f3\u30d0\u30fc\u30ea\u30b9\u30c8
+ timesheet.time_tracking         = \u6642\u9593\u7ba1\u7406
+
+ title = OPEN PPM - Project Portfolio Management
+
+ title.control_project        = \u30b3\u30fc\u30c8\u30ed\u30fc\u30eb\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ title.edit                   = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u7de8\u96c6/\u898b\u308b
+ title.edit_investment        = \u6295\u8cc7\u3092\u7de8\u96c6/\u898b\u308b
+ title.new_investment         = \u6295\u8cc7\u306e\u65b0\u898f\u4f5c\u6210
+ title.new_project            = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u65b0\u898f\u4f5c\u6210
+ title.planning_project       = \u8a08\u753b\u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+ title.planning_project_cost  = \u8a08\u753b\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u539f\u4fa1
+ title.planning_project_staff = \u8a08\u753b\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30b9\u30bf\u30c3\u30d5
+ title.programs               = \u30d7\u30ed\u30b0\u30e9\u30e0
+ title.projects               = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8
+
+ title_two = :: Project Portfolio Management ::
+
+ token = \u30c8\u30fc\u30af\u30f3
+
+ token.change   = \u30c8\u30fc\u30af\u30f3\u306e\u5909\u66f4\uff06\u66f4\u65b0
+ token.generate = API\u30c8\u30fc\u30af\u30f3\u306e\u751f\u6210
+
+ total = \u30c8\u30fc\u30bf\u30eb
+
+ total.costs = \u7dcf\u30b3\u30b9\u30c8
+
+ tracking = \u7ba1\u7406
+
+ type = \u7a2e\u985e
+
+ undo = \u53d6\u308a\u6d88\u3057
+
+ undo.all = \u5168\u3066\u53d6\u6d88\u3057
+
+ update = \u66f4\u65b0
+
+ update.from_redmine     = Redmine\u304b\u3089\u66f4\u65b0
+
+ update_chart = \u30c1\u30e3\u30fc\u30c8\u66f4\u65b0
+
+ update_project_baseline = MS\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304b\u3089\u66f4\u65b0
+
+ upload = \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9
+
+ url = URL
+
+ user = \u30e6\u30fc\u30b6
+
+ view = \u8a73\u7d30\u3092\u898b\u308b
+
+ view_pdf = PDF\u3092\u898b\u308b
+
+ view_project = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u898b\u308b
+
+ wbs = WBS
+
+ wbs.budget      = \u4e88\u7b97
+wbs.ca          = CA
+ wbs.ca_desc     = \u30ce\u30fc\u30c9\u304cCA\u3067\u3042\u308b\u304b\u306e\u78ba\u8a8d
+ wbs.ca_long     = \u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\uff08CA\uff09
+ wbs.chart       = \u30c1\u30e3\u30fc\u30c8
+ wbs.code        = \u30b3\u30fc\u30c9
+ wbs.date        = \u65e5\u4ed8
+ wbs.desc        = \u8aac\u660e
+ wbs.dictionary  = WBS\u8f9e\u66f8
+wbs.info        = WBS\u306b\u30a8\u30e9\u30fc\u306a\u3057
+wbs.name        = \u540d\u79f0
+ wbs.parent      = \u89aaWBS\u30ce\u30fc\u30c9
+ wbs.parent_code = \u89aa\u30b3\u30fc\u30c9
+ wbs.validate    = CA\u6574\u5408\u6027\u30c1\u30a7\u30c3\u30af
+ wbs.wbs         = WBS
+
+ wbs_chart = WBS\u30c1\u30e3\u30fc\u30c8
+
+ wbs_node = WBS\u30ce\u30fc\u30c9
+
+ wbs_parent = \u89aaWBS
+
+ week = \u9031
+
+ week.day_min         = \u65e5
+ week.friday          = \u91d1\u66dc\u65e5
+ week.friday_short    = \u91d1
+ week.monday          = \u6708\u66dc\u65e5
+ week.monday_short    = \u6708
+ week.saturday        = \u571f\u66dc\u65e5
+ week.saturday_short  = \u571f
+ week.sunday          = \u65e5\u66dc\u65e5
+ week.sunday_short    = \u65e5
+ week.thursday        = \u6728\u66dc\u65e5
+ week.thursday_short  = \u6728
+ week.tuesday         = \u706b\u66dc\u65e5
+ week.tuesday_short   = \u706b
+ week.wednesday       = \u6c34\u66dc\u65e5
+ week.wednesday_short = \u6c34
+
+ work_group = \u30ef\u30fc\u30af\u30b0\u30eb\u30fc\u30d7
+
+ working_hours = \u4f5c\u696d\u6642\u9593
+
+ workingcost = \u4f5c\u696d\u539f\u4fa1
+
+ workingcosts = \u4f5c\u696d\u539f\u4fa1
+
+ workingcosts.actual_hours  = \u5b9f\u6642\u9593\uff08\uff48\uff09
+ workingcosts.cost          = \u539f\u4fa1
+ workingcosts.department    = \u90e8\u7f72
+ workingcosts.effort        = \u5de5\u6570
+ workingcosts.hourly_rate   = \u6642\u9593\u5358\u4fa1
+ workingcosts.planned_hours = \u4e88\u5b9a\u6642\u9593\uff08h\uff09
+ workingcosts.q1            = Q1
+ workingcosts.q2            = Q2
+ workingcosts.q3            = Q3
+ workingcosts.q4            = Q4
+ workingcosts.resource      = \u30ea\u30bd\u30fc\u30b9
+ workingcosts.total         = \u30c8\u30fc\u30bf\u30eb
+ workingcosts.unit_rate     = \u5358\u4fa1
+ workingcosts.units         = \u5358\u4f4d
+
+ yes = \u306f\u3044
+ locale.ja_JP = \u65e5\u672c\u8a9e
+ investments_project_name = \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u540d
+ pdf_change_request = Change Request
+ pdf_change_request.project_name = Project Name/Number:
+ pdf_change_request.prepared_by = Prepared by:
+ pdf_change_request.date = Date:
+ pdf_change_request.customer = Customer/End User Group:
+ pdf_change_request.contact_name = Contact Name:
+ pdf_change_request.customer_type = Customer Type:
+ pdf_change_request.business_manager = Functional Manager:
+ pdf_change_request.project_manager = Project Manager:
+ pdf_change_request.originator = Originator:
+ pdf_change_information = Change information
+ pdf_change.change_type = Change Type
+ pdf_change.priority.high = High
+ pdf_change.priority.normal = Normal
+ pdf_change.priority.low = Low
+ pdf_change.priority = Priority
+ pdf_change.desc = Change Description
+ pdf_change.recommended_solution = Recommended Solution
+ pdf_change.wbs_node = WBS Node
+ pdf_change.estimated_effort = Estimated Effort
+ pdf_change.estimated_cost = Estimated Cost
+ pdf_change.impact_desc = Impact Description
+ pdf_change.resolution = Resolution
+ pdf_change.resolution_date = Resolution date
+ pdf_change.resolution_reason = Resolution Reason
+ pdf_yes = Yes
+ pdf_no = No
+
+ #20150120 add wang start #3
+ wkflowDelegation.currentStatus    = \u30b3\u30e1\u30f3\u30c8\u72b6\u614b
+ fundsource.type                   = \u30ec\u30d3\u30e5\u30fc\u30b9\u30c6\u30fc\u30bf\u30b9
+ string.date                       = \u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u65e5\u4ed8
+ wkflowDelegation.currentStatus.0  = \u672a\u63d0\u51fa
+ wkflowDelegation.currentStatus.1  = \u8ab2\u9577\u627f\u8a8d\u5f85\u3061
+ wkflowDelegation.currentStatus.2  = \u90e8\u9577\u627f\u8a8d\u5f85\u3061
+ wkflowDelegation.currentStatus.3  = \u8ab2\u9577\u30fb\u90e8\u9577\u5374\u4e0b
+ wkflowDelegation.currentStatus.4  = \u627f\u8a8d\u6e08\u307f
+ msg.admit                         = \u627f\u8a8d
+ msg.rollback                      = \u5374\u4e0b
+ wkflowdelegation.currentstatus_0  = new case
+ wkflowdelegation.currentstatus_1  = First OK commit
+ wkflowdelegation.currentstatus_2  = NG commit
+ wkflowdelegation.currentstatus_3  = Seconde OK commit
+ wkflowDelegation.save = \u4fdd\u5b58
+ wkflowDelegation.commit = \u63d0\u51fa
+ #20150120 add wang end #3
+
+ #20150120 add wang start #3
+ msg.info.wkflow_success = The project\u2019s comment has been successfully {0}.
+ msg.info.wkflow_fail = The case info not found or not exist.
+ #20150120 add wang start #3
+
+ #20150601 add zhangnan start
+maintenance.skillCategory.name = \u30ab\u30c6\u30b4\u30ea
+ maintenance.skill.showOrder = \u8868\u793a\u9806\u756a
+ maintenance.skill.bu = \u90e8
+ msg.info.skill.showOrder = \u8868\u793a\u9806\u756a\u304c<b>{0}</b>\u3092\u8d85\u3048\u3066\u3044\u307e\u3059\u3002
+ msg.info.skill.existed = \u5165\u529b\u3055\u308c\u305f\u30b9\u30ad\u30eb\u60c5\u5831\u304c<b>{0}</b>\u306b\u65e2\u306b\u5b58\u5728\u3059\u308b\u305f\u3081\u3001\u767b\u9332\u307e\u305f\u306f\u5909\u66f4\u3067\u304d\u307e\u305b\u3093\u3002
+ maintenance.teammemberskills = \u793e\u54e1\u30b9\u30ad\u30eb
+ maintenance.skill.common = \u5171\u901a
+ maintenance.teammemberskill.sumumary = \u30b9\u30ad\u30eb\u30b5\u30de\u30ea\u30fc
+ maintenance.teammemberskill.belongOrg = \u6240\u5c5e
+ maintenance.skill.level.none = \u7121\u3057
+ maintenance.skill.level.high = \u25ce
+ maintenance.skill.level.middle = \u3007
+ maintenance.skill.level.low = \u25b3
+ maintenance.skill.level.any = \u5168\u90e8
+ msg.info.teammemberskill.selectone = \u30b9\u30ad\u30eb\u3092\u5c11\u306a\u304f\u3066\u3082\uff11\u4ef6\u9078\u629e\u3057\u3066\u304f\u3060\u3055\u3044\u3002
+ maintenance.teammemberskill.emp.information= \u88dc\u8db3\u60c5\u5831
+ maintenance.teammemberskill.emp.type= \u793e\u54e1\u533a\u5206
+ maintenance.teammemberskill.emp.type_1= \u6b63\u793e\u54e1
+ maintenance.teammemberskill.emp.type_2= \u6d3e\u9063
+ maintenance.teammemberskill.emp.code= \u793e\u54e1\u30b3\u30fc\u30c9
+ maintenance.teammemberskill.emp.detail = \u793e\u54e1\u30b9\u30ad\u30eb\u8a73\u7d30
+ maintenance.teammemberskills.upload = \u793e\u54e1\u30b9\u30ad\u30eb\u4e00\u62ec\u5165\u529b
+ maintenance.teammemberskills.upload.title = \u4e00\u62ec\u5165\u529b
+ maintenance.teammemberskills.upload.file = \u5165\u529b\u30d5\u30a1\u30a4\u30eb
+ msg.error.not.excel.file = \u30d5\u30a1\u30a4\u30eb\u306e\u66f8\u5f0f\u304c\u6b63\u3057\u304f\u3042\u308a\u307e\u305b\u3093\u3002
+msg.error.not.excel.file.info = EXCEL\u30d5\u30a1\u30a4\u30eb\u3057\u304b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3067\u304d\u307e\u305b\u3093\u3002
+ msg.error.not.same.bu.code = \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3055\u308c\u308b\u30d5\u30a1\u30a4\u30eb\u306b\u3042\u308b\u90e8\u9580\u30b4\u30fc\u30c9\u3068\u753b\u9762\u3067\u9078\u629e\u3055\u308c\u305f\u90e8\u9580\u30b4\u30fc\u30c9\u304c\u4e00\u81f4\u3057\u307e\u305b\u3093\u3002
+msg.error.incomplete.emp.info = \u793e\u54e1\u60c5\u5831\u306b\u7a7a\u3068\u306a\u3063\u3066\u3044\u308b\u60c5\u5831\u304c\u3042\u308a\u307e\u3059\u3002
+ msg.teammemberskills.upload.success = \u9078\u629e\u3055\u308c\u305f\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u30d5\u30a1\u30a4\u30eb\u306e\u793e\u54e1\u30b9\u30ad\u30eb\u60c5\u5831\u306e\u3059\u3079\u3066\u304c\u6b63\u3057\u304f\u30a4\u30f3\u30dd\u30fc\u30c8\u3055\u308c\u307e\u3057\u305f\u3002
+ msg.error.not.exist.ka = \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u30d5\u30a1\u30a4\u30eb\u306b\u3042\u308b\u300c{0}\u300d\u306f\u5f53\u8a72\u90e8\u8ab2\u306e\u914d\u4e0b\u306b\u3042\u308a\u307e\u305b\u3093\u3002
+ msg.error.already.exist.skill = \u5165\u529b\u30d5\u30a1\u30a4\u30eb\u4e2d{0}\u884c\u76ee\u306e\u30b9\u30ad\u30eb\u60c5\u5831\u304c\u91cd\u8907\u3057\u3066\u3044\u307e\u3059\u3002
+ msg.error.no.emp = \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u30d5\u30a1\u30a4\u30eb\u306b\u793e\u54e1\u304c\u8ffd\u52a0\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002
+ msg.error.already.exist.emp = \u793e\u54e1{0}\u306f\u65e2\u306b\u307b\u304b\u306e\u90e8\u306b\u3044\u307e\u3059\u3002
+ #20150601 add zhangnan end
